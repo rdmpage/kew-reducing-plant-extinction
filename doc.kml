@@ -1,0 +1,2276 @@
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+  <Document id="sm4_1OD5biIu5Xubn4tJjUrLDKDHxKZwGDtcBm7h-HumrcXo_0">
+    <name>Kew Gardens - Plant Extinction</name>
+    <snippet/>
+    <StyleMap id="sm43_carousel_lightbox">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#sm43_carousel_lightbox_n</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#sm43_carousel_lightbox_h</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="sm43_carousel_lightbox_h">
+      <IconStyle>
+        <scale>1.5</scale>
+        <Icon>
+          <href>https://www.gstatic.com/earthfeed/icons/pinlet_yellow_ON_64.png</href>
+        </Icon>
+        <hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+        <gx:scalingMode>fixedScaling</gx:scalingMode>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <bgColor>ff383226</bgColor>
+        <text><![CDATA[<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="version" content="23.3.0" />
+    <style>
+      body {overflow: hidden; visibility: hidden}
+    </style>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500|Roboto+Slab|Material+Icons" type="text/css" />
+    <link rel="stylesheet" href="https://www.gstatic.com/earth/earthfeed/mdl/1.1.3/material.blue_grey-blue.min.css" />
+    <link rel="stylesheet" href="https://www.gstatic.com/earth/earthfeed/css/earthfeed.v23.x.min.css" type="text/css" />
+    <script src="https://www.gstatic.com/earth/earthfeed/mdl/1.3.0/material.min.js"></script>
+  </head>
+  <body>
+    <div class="ef-container ef-lightbox">
+      <main class="ef-lightbox__main">
+        <div class=" ef-lightbox-carousel carousel carousel--with-captions" data-component="EfLightboxCarousel">
+          <div class="carousel__buttons carousel__buttons--dark carousel__buttons--hidden">
+            <a href="#" role="button" aria-label="$[lightboxCarousel_previousButton_ariaLabel]" class="carousel__button carousel__button--prev mdl-button mdl-button--icon mdl-js-button">
+              <i class="material-icons">&#xE408;</i>
+            </a>
+            <a href="#" role="button" aria-label="$[lightboxCarousel_nextButton_ariaLabel]" class="carousel__button carousel__button--next mdl-button mdl-button--icon mdl-js-button">
+              <i class="material-icons">&#xE409;</i>
+            </a>
+          </div>
+          <script type="x-component/x-data">
+            {''''json'''':null,''''images'''':[{''''imageUrl'''':''''$[carouselImageUrl-1]'''',''''captionText'''':''''$[carouselCaptionText-1]'''',''''captionLink'''':''''$[carouselCaptionLink-1]'''',''''captionLinkAriaLabel'''':''''$[lightboxCarousel_captionLink_ariaLabel-1]'''',''''captionPrefix'''':''''$[carouselCaptionPrefix-1]''''},{''''imageUrl'''':''''$[carouselImageUrl-2]'''',''''captionText'''':''''$[carouselCaptionText-2]'''',''''captionLink'''':''''$[carouselCaptionLink-2]'''',''''captionLinkAriaLabel'''':''''$[lightboxCarousel_captionLink_ariaLabel-2]'''',''''captionPrefix'''':''''$[carouselCaptionPrefix-2]''''},{''''imageUrl'''':''''$[carouselImageUrl-3]'''',''''captionText'''':''''$[carouselCaptionText-3]'''',''''captionLink'''':''''$[carouselCaptionLink-3]'''',''''captionLinkAriaLabel'''':''''$[lightboxCarousel_captionLink_ariaLabel-3]'''',''''captionPrefix'''':''''$[carouselCaptionPrefix-3]''''},{''''imageUrl'''':''''$[carouselImageUrl-4]'''',''''captionText'''':''''$[carouselCaptionText-4]'''',''''captionLink'''':''''$[carouselCaptionLink-4]'''',''''captionLinkAriaLabel'''':''''$[lightboxCarousel_captionLink_ariaLabel-4]'''',''''captionPrefix'''':''''$[carouselCaptionPrefix-4]''''},{''''imageUrl'''':''''$[carouselImageUrl-5]'''',''''captionText'''':''''$[carouselCaptionText-5]'''',''''captionLink'''':''''$[carouselCaptionLink-5]'''',''''captionLinkAriaLabel'''':''''$[lightboxCarousel_captionLink_ariaLabel-5]'''',''''captionPrefix'''':''''$[carouselCaptionPrefix-5]''''},{''''imageUrl'''':''''$[carouselImageUrl-6]'''',''''captionText'''':''''$[carouselCaptionText-6]'''',''''captionLink'''':''''$[carouselCaptionLink-6]'''',''''captionLinkAriaLabel'''':''''$[lightboxCarousel_captionLink_ariaLabel-6]'''',''''captionPrefix'''':''''$[carouselCaptionPrefix-6]''''},{''''imageUrl'''':''''$[carouselImageUrl-7]'''',''''captionText'''':''''$[carouselCaptionText-7]'''',''''captionLink'''':''''$[carouselCaptionLink-7]'''',''''captionLinkAriaLabel'''':''''$[lightboxCarousel_captionLink_ariaLabel-7]'''',''''captionPrefix'''':''''$[carouselCaptionPrefix-7]''''},{''''imageUrl'''':''''$[carouselImageUrl-8]'''',''''captionText'''':''''$[carouselCaptionText-8]'''',''''captionLink'''':''''$[carouselCaptionLink-8]'''',''''captionLinkAriaLabel'''':''''$[lightboxCarousel_captionLink_ariaLabel-8]'''',''''captionPrefix'''':''''$[carouselCaptionPrefix-8]''''},{''''imageUrl'''':''''$[carouselImageUrl-9]'''',''''captionText'''':''''$[carouselCaptionText-9]'''',''''captionLink'''':''''$[carouselCaptionLink-9]'''',''''captionLinkAriaLabel'''':''''$[lightboxCarousel_captionLink_ariaLabel-9]'''',''''captionPrefix'''':''''$[carouselCaptionPrefix-9]''''},{''''imageUrl'''':''''$[carouselImageUrl-10]'''',''''captionText'''':''''$[carouselCaptionText-10]'''',''''captionLink'''':''''$[carouselCaptionLink-10]'''',''''captionLinkAriaLabel'''':''''$[lightboxCarousel_captionLink_ariaLabel-10]'''',''''captionPrefix'''':''''$[carouselCaptionPrefix-10]''''}]}
+          </script>
+        </div>
+      </main>
+    </div>
+    <script src="https://www.gstatic.com/earth/earthfeed/js/earthfeed.v23.x.min.js"></script>
+    <script>componentHandler.upgradeAllRegistered()</script>
+    <script type="x-component/x-template-string">
+      <EfTemplate>
+        <EfLightbox>
+          <EfLightboxCarousel />
+        </EfLightbox>
+      </EfTemplate>
+    </script>
+  </body>
+</html><!-- From cache. -->]]></text>
+        <gx:displayMode>fullscreen</gx:displayMode>
+      </BalloonStyle>
+    </Style>
+    <Style id="sm43_carousel_lightbox_n">
+      <IconStyle>
+        <scale>1.3</scale>
+        <Icon>
+          <href>https://www.gstatic.com/earthfeed/icons/pinlet_yellow_ON_64.png</href>
+        </Icon>
+        <hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+        <gx:scalingMode>fixedScaling</gx:scalingMode>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <bgColor>ff383226</bgColor>
+        <text><![CDATA[<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="version" content="23.3.0" />
+    <style>
+      body {overflow: hidden; visibility: hidden}
+    </style>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500|Roboto+Slab|Material+Icons" type="text/css" />
+    <link rel="stylesheet" href="https://www.gstatic.com/earth/earthfeed/mdl/1.1.3/material.blue_grey-blue.min.css" />
+    <link rel="stylesheet" href="https://www.gstatic.com/earth/earthfeed/css/earthfeed.v23.x.min.css" type="text/css" />
+    <script src="https://www.gstatic.com/earth/earthfeed/mdl/1.3.0/material.min.js"></script>
+  </head>
+  <body>
+    <div class="ef-container ef-lightbox">
+      <main class="ef-lightbox__main">
+        <div class=" ef-lightbox-carousel carousel carousel--with-captions" data-component="EfLightboxCarousel">
+          <div class="carousel__buttons carousel__buttons--dark carousel__buttons--hidden">
+            <a href="#" role="button" aria-label="$[lightboxCarousel_previousButton_ariaLabel]" class="carousel__button carousel__button--prev mdl-button mdl-button--icon mdl-js-button">
+              <i class="material-icons">&#xE408;</i>
+            </a>
+            <a href="#" role="button" aria-label="$[lightboxCarousel_nextButton_ariaLabel]" class="carousel__button carousel__button--next mdl-button mdl-button--icon mdl-js-button">
+              <i class="material-icons">&#xE409;</i>
+            </a>
+          </div>
+          <script type="x-component/x-data">
+            {''''json'''':null,''''images'''':[{''''imageUrl'''':''''$[carouselImageUrl-1]'''',''''captionText'''':''''$[carouselCaptionText-1]'''',''''captionLink'''':''''$[carouselCaptionLink-1]'''',''''captionLinkAriaLabel'''':''''$[lightboxCarousel_captionLink_ariaLabel-1]'''',''''captionPrefix'''':''''$[carouselCaptionPrefix-1]''''},{''''imageUrl'''':''''$[carouselImageUrl-2]'''',''''captionText'''':''''$[carouselCaptionText-2]'''',''''captionLink'''':''''$[carouselCaptionLink-2]'''',''''captionLinkAriaLabel'''':''''$[lightboxCarousel_captionLink_ariaLabel-2]'''',''''captionPrefix'''':''''$[carouselCaptionPrefix-2]''''},{''''imageUrl'''':''''$[carouselImageUrl-3]'''',''''captionText'''':''''$[carouselCaptionText-3]'''',''''captionLink'''':''''$[carouselCaptionLink-3]'''',''''captionLinkAriaLabel'''':''''$[lightboxCarousel_captionLink_ariaLabel-3]'''',''''captionPrefix'''':''''$[carouselCaptionPrefix-3]''''},{''''imageUrl'''':''''$[carouselImageUrl-4]'''',''''captionText'''':''''$[carouselCaptionText-4]'''',''''captionLink'''':''''$[carouselCaptionLink-4]'''',''''captionLinkAriaLabel'''':''''$[lightboxCarousel_captionLink_ariaLabel-4]'''',''''captionPrefix'''':''''$[carouselCaptionPrefix-4]''''},{''''imageUrl'''':''''$[carouselImageUrl-5]'''',''''captionText'''':''''$[carouselCaptionText-5]'''',''''captionLink'''':''''$[carouselCaptionLink-5]'''',''''captionLinkAriaLabel'''':''''$[lightboxCarousel_captionLink_ariaLabel-5]'''',''''captionPrefix'''':''''$[carouselCaptionPrefix-5]''''},{''''imageUrl'''':''''$[carouselImageUrl-6]'''',''''captionText'''':''''$[carouselCaptionText-6]'''',''''captionLink'''':''''$[carouselCaptionLink-6]'''',''''captionLinkAriaLabel'''':''''$[lightboxCarousel_captionLink_ariaLabel-6]'''',''''captionPrefix'''':''''$[carouselCaptionPrefix-6]''''},{''''imageUrl'''':''''$[carouselImageUrl-7]'''',''''captionText'''':''''$[carouselCaptionText-7]'''',''''captionLink'''':''''$[carouselCaptionLink-7]'''',''''captionLinkAriaLabel'''':''''$[lightboxCarousel_captionLink_ariaLabel-7]'''',''''captionPrefix'''':''''$[carouselCaptionPrefix-7]''''},{''''imageUrl'''':''''$[carouselImageUrl-8]'''',''''captionText'''':''''$[carouselCaptionText-8]'''',''''captionLink'''':''''$[carouselCaptionLink-8]'''',''''captionLinkAriaLabel'''':''''$[lightboxCarousel_captionLink_ariaLabel-8]'''',''''captionPrefix'''':''''$[carouselCaptionPrefix-8]''''},{''''imageUrl'''':''''$[carouselImageUrl-9]'''',''''captionText'''':''''$[carouselCaptionText-9]'''',''''captionLink'''':''''$[carouselCaptionLink-9]'''',''''captionLinkAriaLabel'''':''''$[lightboxCarousel_captionLink_ariaLabel-9]'''',''''captionPrefix'''':''''$[carouselCaptionPrefix-9]''''},{''''imageUrl'''':''''$[carouselImageUrl-10]'''',''''captionText'''':''''$[carouselCaptionText-10]'''',''''captionLink'''':''''$[carouselCaptionLink-10]'''',''''captionLinkAriaLabel'''':''''$[lightboxCarousel_captionLink_ariaLabel-10]'''',''''captionPrefix'''':''''$[carouselCaptionPrefix-10]''''}]}
+          </script>
+        </div>
+      </main>
+    </div>
+    <script src="https://www.gstatic.com/earth/earthfeed/js/earthfeed.v23.x.min.js"></script>
+    <script>componentHandler.upgradeAllRegistered()</script>
+    <script type="x-component/x-template-string">
+      <EfTemplate>
+        <EfLightbox>
+          <EfLightboxCarousel />
+        </EfLightbox>
+      </EfTemplate>
+    </script>
+  </body>
+</html><!-- From cache. -->]]></text>
+        <gx:displayMode>fullscreen</gx:displayMode>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="sm43_image_lightbox">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#sm43_image_lightbox_n</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#sm43_image_lightbox_h</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="sm43_image_lightbox_h">
+      <IconStyle>
+        <scale>1.5</scale>
+        <Icon>
+          <href>https://www.gstatic.com/earthfeed/icons/pinlet_yellow_ON_64.png</href>
+        </Icon>
+        <hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+        <gx:scalingMode>fixedScaling</gx:scalingMode>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <bgColor>ff383226</bgColor>
+        <text><![CDATA[<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="version" content="23.3.0" />
+    <style>
+      body {overflow: hidden; visibility: hidden}
+    </style>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500|Roboto+Slab|Material+Icons" type="text/css" />
+    <link rel="stylesheet" href="https://www.gstatic.com/earth/earthfeed/mdl/1.1.3/material.blue_grey-blue.min.css" />
+    <link rel="stylesheet" href="https://www.gstatic.com/earth/earthfeed/css/earthfeed.v23.x.min.css" type="text/css" />
+    <script src="https://www.gstatic.com/earth/earthfeed/mdl/1.3.0/material.min.js"></script>
+  </head>
+  <body>
+    <div class="ef-container ef-lightbox">
+      <main class="ef-lightbox__main">
+        <div class="ef-lightbox-image">
+          <figure class="ef-lightbox-image__figure">
+            <div class="ef-lightbox-image__img-container">
+              <div class="ef-lightbox-image__img" style="background-image: url($[imageUrl]);"></div>
+            </div>
+            <figcaption data-hide-if-empty="$[imageCaption]" class="ef-lightbox-image__caption">
+              <span data-hide-if-empty="$[captionPrefix]">$[captionPrefix]</span>
+              <a href="$[captionLink]" target="_blank" aria-label="$[lightboxImage_captionLink_ariaLabel]" role="link">$[imageCaption]</a>
+            </figcaption>
+          </figure>
+        </div>
+      </main>
+    </div>
+    <script src="https://www.gstatic.com/earth/earthfeed/js/earthfeed.v23.x.min.js"></script>
+    <script>componentHandler.upgradeAllRegistered()</script>
+    <script type="x-component/x-template-string">
+      <EfTemplate>
+        <EfLightbox>
+          <EfLightboxImage captionText="$[imageCaption]" />
+        </EfLightbox>
+      </EfTemplate>
+    </script>
+  </body>
+</html><!-- From cache. -->]]></text>
+        <gx:displayMode>fullscreen</gx:displayMode>
+      </BalloonStyle>
+    </Style>
+    <Style id="sm43_image_lightbox_n">
+      <IconStyle>
+        <scale>1.3</scale>
+        <Icon>
+          <href>https://www.gstatic.com/earthfeed/icons/pinlet_yellow_ON_64.png</href>
+        </Icon>
+        <hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+        <gx:scalingMode>fixedScaling</gx:scalingMode>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <bgColor>ff383226</bgColor>
+        <text><![CDATA[<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="version" content="23.3.0" />
+    <style>
+      body {overflow: hidden; visibility: hidden}
+    </style>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500|Roboto+Slab|Material+Icons" type="text/css" />
+    <link rel="stylesheet" href="https://www.gstatic.com/earth/earthfeed/mdl/1.1.3/material.blue_grey-blue.min.css" />
+    <link rel="stylesheet" href="https://www.gstatic.com/earth/earthfeed/css/earthfeed.v23.x.min.css" type="text/css" />
+    <script src="https://www.gstatic.com/earth/earthfeed/mdl/1.3.0/material.min.js"></script>
+  </head>
+  <body>
+    <div class="ef-container ef-lightbox">
+      <main class="ef-lightbox__main">
+        <div class="ef-lightbox-image">
+          <figure class="ef-lightbox-image__figure">
+            <div class="ef-lightbox-image__img-container">
+              <div class="ef-lightbox-image__img" style="background-image: url($[imageUrl]);"></div>
+            </div>
+            <figcaption data-hide-if-empty="$[imageCaption]" class="ef-lightbox-image__caption">
+              <span data-hide-if-empty="$[captionPrefix]">$[captionPrefix]</span>
+              <a href="$[captionLink]" target="_blank" aria-label="$[lightboxImage_captionLink_ariaLabel]" role="link">$[imageCaption]</a>
+            </figcaption>
+          </figure>
+        </div>
+      </main>
+    </div>
+    <script src="https://www.gstatic.com/earth/earthfeed/js/earthfeed.v23.x.min.js"></script>
+    <script>componentHandler.upgradeAllRegistered()</script>
+    <script type="x-component/x-template-string">
+      <EfTemplate>
+        <EfLightbox>
+          <EfLightboxImage captionText="$[imageCaption]" />
+        </EfLightbox>
+      </EfTemplate>
+    </script>
+  </body>
+</html><!-- From cache. -->]]></text>
+        <gx:displayMode>fullscreen</gx:displayMode>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="sm43_carousel">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#sm43_carousel_n</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#sm43_carousel_h</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="sm43_carousel_h">
+      <IconStyle>
+        <scale>1.5</scale>
+        <Icon>
+          <href>https://www.gstatic.com/earthfeed/icons/pinlet_pink_ON_64.png</href>
+        </Icon>
+        <hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+        <gx:scalingMode>fixedScaling</gx:scalingMode>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <bgColor>ff383226</bgColor>
+        <text><![CDATA[<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="version" content="23.3.0" />
+    <style>
+      body {overflow: hidden; visibility: hidden}
+    </style>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500|Roboto+Slab|Material+Icons" type="text/css" />
+    <link rel="stylesheet" href="https://www.gstatic.com/earth/earthfeed/mdl/1.1.3/material.blue_grey-blue.min.css" />
+    <link rel="stylesheet" href="https://www.gstatic.com/earth/earthfeed/css/earthfeed.v23.x.min.css" type="text/css" />
+    <script src="https://www.gstatic.com/earth/earthfeed/mdl/1.3.0/material.min.js"></script>
+  </head>
+  <body>
+    <div data-component="EfPanel" class="ef-container ef-panel theme-dark">
+      <main class="ef-panel__main">
+        <div data-component="EfPanelCarousel" class="ef-panel-carousel  carousel">
+          <a data-hide-if-empty="#$[id]_lightbox;balloon" href="#$[id]_lightbox;balloon" aria-label="$[panelCarousel_link_ariaLabel]" role="link" class="ef-panel-carousel__link"></a>
+          <div class="carousel__buttons carousel__buttons--dark carousel__buttons--hidden">
+            <a href="#" role="button" aria-label="$[panelCarousel_previousButton_ariaLabel]" class="carousel__button carousel__button--prev mdl-button mdl-button--icon mdl-js-button">
+              <i class="material-icons">&#xE408;</i>
+            </a>
+            <a href="#" role="button" aria-label="$[panelCarousel_nextButton_ariaLabel]" class="carousel__button carousel__button--next mdl-button mdl-button--icon mdl-js-button">
+              <i class="material-icons">&#xE409;</i>
+            </a>
+          </div>
+          <a data-hide-if-empty="#$[id]_lightbox;balloon" href="#$[id]_lightbox;balloon" aria-label="$[panelCarousel_zoom_ariaLabel]" role="button" class="ef-panel-carousel__zoom-container">
+            <span class="ef-panel-carousel__zoom-button mdl-button mdl-button--icon mdl-js-button">
+              <i class="material-icons">&#xE5D0;</i>
+            </span>
+          </a>
+          <script type="x-component/x-data">
+            {''''json'''':null,''''images'''':[{''''imageUrl'''':''''$[carouselImageUrl-1]''''},{''''imageUrl'''':''''$[carouselImageUrl-2]''''},{''''imageUrl'''':''''$[carouselImageUrl-3]''''},{''''imageUrl'''':''''$[carouselImageUrl-4]''''},{''''imageUrl'''':''''$[carouselImageUrl-5]''''},{''''imageUrl'''':''''$[carouselImageUrl-6]''''},{''''imageUrl'''':''''$[carouselImageUrl-7]''''},{''''imageUrl'''':''''$[carouselImageUrl-8]''''},{''''imageUrl'''':''''$[carouselImageUrl-9]''''},{''''imageUrl'''':''''$[carouselImageUrl-10]''''}]}
+          </script>
+        </div>
+        <div class="ef-panel-header ">
+          <h1 class="ef-panel-header__title">$[name]</h1>
+          <h2 class="ef-panel-header__subtitle">$[snippet]</h2>
+          <a href="#$[id];$[fabAction]" aria-label="$[panelFab_link_ariaLabel]" role="button" class="ef-panel-fab ef-panel-fab--flyto mdl-button mdl-js-button mdl-button--fab mdl-button--colored mdl-js-ripple-effect">
+            <svg width="48" height="48" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+              <path class="ef-panel-fab__icon ef-panel-fab__icon--flyto" d="M42.506 8.25c.106-.027.21-.04.312-.04.78 0 1.39.78 1.115 1.574L36.81 37.502c-.172.5-.638.802-1.125.802-.194 0-.39-.048-.576-.15L25.1 32.7l-6.967 7.028c-.68.7-2.11-.018-2.11-.993v-10.74L4.61 21.75c-.932-.52-.76-1.91.272-2.186L42.506 8.25zM19.05 27.08v7.084l21.3-22.33v-.146L19.05 27.08z" fill="#FFF" fill-rule="evenodd"></path>
+              <path class="ef-panel-fab__icon ef-panel-fab__icon--streetview" d="M24,17 C28.9705615,17 33,13.194421 33,9 C33,3.80557896 28.9705615,0 24,0 C19.029436,0 15,3.80557896 15,9 C15,13.194421 19.029436,17 24,17 Z M14,35 C13.6861635,35.4002019 13.725866,35.539573 13,36 C12.3828832,35.539573 11.341473,34.94568 11,35 C11.341473,34.94568 10.8591204,34.5896324 11,34 C11.6348205,32.2985717 14.3610537,21.9991987 15,20 C15.5607564,17.9236744 17.2540068,18.000351 17,18 L19,18 L24,27 L29,18 L31,18 C31.285115,18.000351 32.0562602,18.0770969 33,19 C33.215413,19.380836 33.3396705,20.4815199 33,20 L37,33 C36.8085563,33.33718 37.0542064,34.2387355 37,35 C36.8987063,34.8671104 36.6510838,34.94568 37,35 C36.6510838,34.94568 35.6874261,35.2038795 35,35 C34.1374882,35.67648 33.9394282,34.7609927 34,35 L31,27 L30,48 L26,48 L25,36 C24.6925235,35.8339873 24.5350735,35.539573 24,36 C23.6633458,35.539573 23.5105133,35.8339873 24,36 L22,48 L18,48 L17,27 C17.4544694,26.5101552 14.7393587,33.566825 14,35 Z" style="transform: translateX(3px)" fill="#FFFFFF"></path>
+            </svg>
+          </a>
+        </div>
+        <div class="ef-panel-content">
+          <p>$[description]</p>
+          <a href="$[ctaLink]" data-hide-if-empty="$[ctaText]" aria-label="$[panel_ctaLink_ariaLabel]" role="button" class="ef-cta-button mdl-button mdl-js-button">$[ctaText]</a>
+        </div>
+        <div class="ef-footer " data-component="EfPanelFooter">
+          <div class="ef-footer__logo-container">
+            <a href="$[logoLink]" data-hide-if-empty="$[logoImageUrl]" aria-label="$[panelFooter_logoLink_ariaLabel]" role="link">
+              <img data-src="$[logoImageUrl]" class="ef-footer__logo" />
+            </a>
+          </div>
+          <div class="ef-footer__pagination">
+            <a data-hide-if-empty="#$[previousSiblingId];$[previousAction]" href="#$[previousSiblingId];$[previousAction]" role="button" aria-label="$[panelFooter_previousLink_ariaLabel]" class="ef-footer__button ef-footer__button--prev mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+              <i class="material-icons">&#xE408;</i>
+            </a>
+            <span data-hide-if-empty="$[containerIndex] / $[containerLength]" class="ef-footer__page">$[containerIndex] / $[containerLength]</span>
+            <a data-hide-if-empty="#$[nextSiblingId];$[nextAction]" href="#$[nextSiblingId];$[nextAction]" role="button" aria-label="$[panelFooter_nextLink_ariaLabel]" class="ef-footer__button ef-footer__button--next mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+              <i class="material-icons">&#xE409;</i>
+            </a>
+          </div>
+        </div>
+      </main>
+      <script type="x-component/x-data">
+        {''''overlayIdsToHide'''':''''$[overlayIdsToHide]'''',''''overlayIdsToShow'''':''''$[overlayIdsToShow]'''',''''overlayHideTimeout'''':0}
+      </script>
+    </div>
+    <script src="https://www.gstatic.com/earth/earthfeed/js/earthfeed.v23.x.min.js"></script>
+    <script>componentHandler.upgradeAllRegistered()</script>
+    <script type="x-component/x-template-string">
+      <EfTemplate>
+        <EfPanel theme="dark">
+          <EfPanelCarousel />
+          <EfPanelHeader>
+            <EfPanelFab />
+          </EfPanelHeader>
+          <EfPanelContent>
+            <EfPanelDescription />
+            <EfCtaButton />
+          </EfPanelContent>
+          <EfPanelFooter />
+        </EfPanel>
+      </EfTemplate>
+    </script>
+  </body>
+</html><!-- From cache. -->]]></text>
+        <gx:displayMode>panel</gx:displayMode>
+      </BalloonStyle>
+    </Style>
+    <Style id="sm43_carousel_n">
+      <IconStyle>
+        <scale>1.3</scale>
+        <Icon>
+          <href>https://www.gstatic.com/earthfeed/icons/pinlet_pink_ON_64.png</href>
+        </Icon>
+        <hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+        <gx:scalingMode>fixedScaling</gx:scalingMode>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <bgColor>ff383226</bgColor>
+        <text><![CDATA[<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="version" content="23.3.0" />
+    <style>
+      body {overflow: hidden; visibility: hidden}
+    </style>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500|Roboto+Slab|Material+Icons" type="text/css" />
+    <link rel="stylesheet" href="https://www.gstatic.com/earth/earthfeed/mdl/1.1.3/material.blue_grey-blue.min.css" />
+    <link rel="stylesheet" href="https://www.gstatic.com/earth/earthfeed/css/earthfeed.v23.x.min.css" type="text/css" />
+    <script src="https://www.gstatic.com/earth/earthfeed/mdl/1.3.0/material.min.js"></script>
+  </head>
+  <body>
+    <div data-component="EfPanel" class="ef-container ef-panel theme-dark">
+      <main class="ef-panel__main">
+        <div data-component="EfPanelCarousel" class="ef-panel-carousel  carousel">
+          <a data-hide-if-empty="#$[id]_lightbox;balloon" href="#$[id]_lightbox;balloon" aria-label="$[panelCarousel_link_ariaLabel]" role="link" class="ef-panel-carousel__link"></a>
+          <div class="carousel__buttons carousel__buttons--dark carousel__buttons--hidden">
+            <a href="#" role="button" aria-label="$[panelCarousel_previousButton_ariaLabel]" class="carousel__button carousel__button--prev mdl-button mdl-button--icon mdl-js-button">
+              <i class="material-icons">&#xE408;</i>
+            </a>
+            <a href="#" role="button" aria-label="$[panelCarousel_nextButton_ariaLabel]" class="carousel__button carousel__button--next mdl-button mdl-button--icon mdl-js-button">
+              <i class="material-icons">&#xE409;</i>
+            </a>
+          </div>
+          <a data-hide-if-empty="#$[id]_lightbox;balloon" href="#$[id]_lightbox;balloon" aria-label="$[panelCarousel_zoom_ariaLabel]" role="button" class="ef-panel-carousel__zoom-container">
+            <span class="ef-panel-carousel__zoom-button mdl-button mdl-button--icon mdl-js-button">
+              <i class="material-icons">&#xE5D0;</i>
+            </span>
+          </a>
+          <script type="x-component/x-data">
+            {''''json'''':null,''''images'''':[{''''imageUrl'''':''''$[carouselImageUrl-1]''''},{''''imageUrl'''':''''$[carouselImageUrl-2]''''},{''''imageUrl'''':''''$[carouselImageUrl-3]''''},{''''imageUrl'''':''''$[carouselImageUrl-4]''''},{''''imageUrl'''':''''$[carouselImageUrl-5]''''},{''''imageUrl'''':''''$[carouselImageUrl-6]''''},{''''imageUrl'''':''''$[carouselImageUrl-7]''''},{''''imageUrl'''':''''$[carouselImageUrl-8]''''},{''''imageUrl'''':''''$[carouselImageUrl-9]''''},{''''imageUrl'''':''''$[carouselImageUrl-10]''''}]}
+          </script>
+        </div>
+        <div class="ef-panel-header ">
+          <h1 class="ef-panel-header__title">$[name]</h1>
+          <h2 class="ef-panel-header__subtitle">$[snippet]</h2>
+          <a href="#$[id];$[fabAction]" aria-label="$[panelFab_link_ariaLabel]" role="button" class="ef-panel-fab ef-panel-fab--flyto mdl-button mdl-js-button mdl-button--fab mdl-button--colored mdl-js-ripple-effect">
+            <svg width="48" height="48" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+              <path class="ef-panel-fab__icon ef-panel-fab__icon--flyto" d="M42.506 8.25c.106-.027.21-.04.312-.04.78 0 1.39.78 1.115 1.574L36.81 37.502c-.172.5-.638.802-1.125.802-.194 0-.39-.048-.576-.15L25.1 32.7l-6.967 7.028c-.68.7-2.11-.018-2.11-.993v-10.74L4.61 21.75c-.932-.52-.76-1.91.272-2.186L42.506 8.25zM19.05 27.08v7.084l21.3-22.33v-.146L19.05 27.08z" fill="#FFF" fill-rule="evenodd"></path>
+              <path class="ef-panel-fab__icon ef-panel-fab__icon--streetview" d="M24,17 C28.9705615,17 33,13.194421 33,9 C33,3.80557896 28.9705615,0 24,0 C19.029436,0 15,3.80557896 15,9 C15,13.194421 19.029436,17 24,17 Z M14,35 C13.6861635,35.4002019 13.725866,35.539573 13,36 C12.3828832,35.539573 11.341473,34.94568 11,35 C11.341473,34.94568 10.8591204,34.5896324 11,34 C11.6348205,32.2985717 14.3610537,21.9991987 15,20 C15.5607564,17.9236744 17.2540068,18.000351 17,18 L19,18 L24,27 L29,18 L31,18 C31.285115,18.000351 32.0562602,18.0770969 33,19 C33.215413,19.380836 33.3396705,20.4815199 33,20 L37,33 C36.8085563,33.33718 37.0542064,34.2387355 37,35 C36.8987063,34.8671104 36.6510838,34.94568 37,35 C36.6510838,34.94568 35.6874261,35.2038795 35,35 C34.1374882,35.67648 33.9394282,34.7609927 34,35 L31,27 L30,48 L26,48 L25,36 C24.6925235,35.8339873 24.5350735,35.539573 24,36 C23.6633458,35.539573 23.5105133,35.8339873 24,36 L22,48 L18,48 L17,27 C17.4544694,26.5101552 14.7393587,33.566825 14,35 Z" style="transform: translateX(3px)" fill="#FFFFFF"></path>
+            </svg>
+          </a>
+        </div>
+        <div class="ef-panel-content">
+          <p>$[description]</p>
+          <a href="$[ctaLink]" data-hide-if-empty="$[ctaText]" aria-label="$[panel_ctaLink_ariaLabel]" role="button" class="ef-cta-button mdl-button mdl-js-button">$[ctaText]</a>
+        </div>
+        <div class="ef-footer " data-component="EfPanelFooter">
+          <div class="ef-footer__logo-container">
+            <a href="$[logoLink]" data-hide-if-empty="$[logoImageUrl]" aria-label="$[panelFooter_logoLink_ariaLabel]" role="link">
+              <img data-src="$[logoImageUrl]" class="ef-footer__logo" />
+            </a>
+          </div>
+          <div class="ef-footer__pagination">
+            <a data-hide-if-empty="#$[previousSiblingId];$[previousAction]" href="#$[previousSiblingId];$[previousAction]" role="button" aria-label="$[panelFooter_previousLink_ariaLabel]" class="ef-footer__button ef-footer__button--prev mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+              <i class="material-icons">&#xE408;</i>
+            </a>
+            <span data-hide-if-empty="$[containerIndex] / $[containerLength]" class="ef-footer__page">$[containerIndex] / $[containerLength]</span>
+            <a data-hide-if-empty="#$[nextSiblingId];$[nextAction]" href="#$[nextSiblingId];$[nextAction]" role="button" aria-label="$[panelFooter_nextLink_ariaLabel]" class="ef-footer__button ef-footer__button--next mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+              <i class="material-icons">&#xE409;</i>
+            </a>
+          </div>
+        </div>
+      </main>
+      <script type="x-component/x-data">
+        {''''overlayIdsToHide'''':''''$[overlayIdsToHide]'''',''''overlayIdsToShow'''':''''$[overlayIdsToShow]'''',''''overlayHideTimeout'''':0}
+      </script>
+    </div>
+    <script src="https://www.gstatic.com/earth/earthfeed/js/earthfeed.v23.x.min.js"></script>
+    <script>componentHandler.upgradeAllRegistered()</script>
+    <script type="x-component/x-template-string">
+      <EfTemplate>
+        <EfPanel theme="dark">
+          <EfPanelCarousel />
+          <EfPanelHeader>
+            <EfPanelFab />
+          </EfPanelHeader>
+          <EfPanelContent>
+            <EfPanelDescription />
+            <EfCtaButton />
+          </EfPanelContent>
+          <EfPanelFooter />
+        </EfPanel>
+      </EfTemplate>
+    </script>
+  </body>
+</html><!-- From cache. -->]]></text>
+        <gx:displayMode>panel</gx:displayMode>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="sm43_video">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#sm43_video_n</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#sm43_video_h</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="sm43_video_h">
+      <IconStyle>
+        <scale>1.5</scale>
+        <Icon>
+          <href>https://www.gstatic.com/earthfeed/icons/pinlet_pink_ON_64.png</href>
+        </Icon>
+        <hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+        <gx:scalingMode>fixedScaling</gx:scalingMode>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <bgColor>ff383226</bgColor>
+        <text><![CDATA[<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="version" content="23.3.0" />
+    <style>
+      body {overflow: hidden; visibility: hidden}
+    </style>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500|Roboto+Slab|Material+Icons" type="text/css" />
+    <link rel="stylesheet" href="https://www.gstatic.com/earth/earthfeed/mdl/1.1.3/material.blue_grey-blue.min.css" />
+    <link rel="stylesheet" href="https://www.gstatic.com/earth/earthfeed/css/earthfeed.v23.x.min.css" type="text/css" />
+    <script src="https://www.gstatic.com/earth/earthfeed/mdl/1.3.0/material.min.js"></script>
+  </head>
+  <body>
+    <div data-component="EfPanel" class="ef-container ef-panel theme-dark">
+      <main class="ef-panel__main">
+        <figure data-component="EfPanelYoutubeVideo" class="ef-panel-youtube-video ">
+          <div class="ef-panel-youtube-video__image-container">
+            <div data-hide-if-filled="$[youtubePreviewUrl]" class="ef-panel-youtube-video__image" style="background-image: url('https://i1.ytimg.com/vi/$[youtubeVideoId]/0.jpg');"></div>
+            <div data-hide-if-empty="$[youtubePreviewUrl]" data-src="$[youtubePreviewUrl]" class="ef-panel-youtube-video__image ef-panel-youtube-video__image--optional"></div>
+            <a aria-label="$[panelYoutube_link_ariaLabel]" role="button" href="https://www.youtube.com/watch?v=$[youtubeVideoId]" class="ef-panel-youtube-video__link">
+              <div class="youtube-icon"></div>
+            </a>
+          </div>
+        </figure>
+        <div class="ef-panel-header ">
+          <h1 class="ef-panel-header__title">$[name]</h1>
+          <h2 class="ef-panel-header__subtitle">$[snippet]</h2>
+          <a href="#$[id];$[fabAction]" aria-label="$[panelFab_link_ariaLabel]" role="button" class="ef-panel-fab ef-panel-fab--flyto mdl-button mdl-js-button mdl-button--fab mdl-button--colored mdl-js-ripple-effect">
+            <svg width="48" height="48" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+              <path class="ef-panel-fab__icon ef-panel-fab__icon--flyto" d="M42.506 8.25c.106-.027.21-.04.312-.04.78 0 1.39.78 1.115 1.574L36.81 37.502c-.172.5-.638.802-1.125.802-.194 0-.39-.048-.576-.15L25.1 32.7l-6.967 7.028c-.68.7-2.11-.018-2.11-.993v-10.74L4.61 21.75c-.932-.52-.76-1.91.272-2.186L42.506 8.25zM19.05 27.08v7.084l21.3-22.33v-.146L19.05 27.08z" fill="#FFF" fill-rule="evenodd"></path>
+              <path class="ef-panel-fab__icon ef-panel-fab__icon--streetview" d="M24,17 C28.9705615,17 33,13.194421 33,9 C33,3.80557896 28.9705615,0 24,0 C19.029436,0 15,3.80557896 15,9 C15,13.194421 19.029436,17 24,17 Z M14,35 C13.6861635,35.4002019 13.725866,35.539573 13,36 C12.3828832,35.539573 11.341473,34.94568 11,35 C11.341473,34.94568 10.8591204,34.5896324 11,34 C11.6348205,32.2985717 14.3610537,21.9991987 15,20 C15.5607564,17.9236744 17.2540068,18.000351 17,18 L19,18 L24,27 L29,18 L31,18 C31.285115,18.000351 32.0562602,18.0770969 33,19 C33.215413,19.380836 33.3396705,20.4815199 33,20 L37,33 C36.8085563,33.33718 37.0542064,34.2387355 37,35 C36.8987063,34.8671104 36.6510838,34.94568 37,35 C36.6510838,34.94568 35.6874261,35.2038795 35,35 C34.1374882,35.67648 33.9394282,34.7609927 34,35 L31,27 L30,48 L26,48 L25,36 C24.6925235,35.8339873 24.5350735,35.539573 24,36 C23.6633458,35.539573 23.5105133,35.8339873 24,36 L22,48 L18,48 L17,27 C17.4544694,26.5101552 14.7393587,33.566825 14,35 Z" style="transform: translateX(3px)" fill="#FFFFFF"></path>
+            </svg>
+          </a>
+        </div>
+        <div class="ef-panel-content">
+          <p>$[description]</p>
+          <a href="$[ctaLink]" data-hide-if-empty="$[ctaText]" aria-label="$[panel_ctaLink_ariaLabel]" role="button" class="ef-cta-button mdl-button mdl-js-button">$[ctaText]</a>
+        </div>
+        <div class="ef-footer " data-component="EfPanelFooter">
+          <div class="ef-footer__logo-container">
+            <a href="$[logoLink]" data-hide-if-empty="$[logoImageUrl]" aria-label="$[panelFooter_logoLink_ariaLabel]" role="link">
+              <img data-src="$[logoImageUrl]" class="ef-footer__logo" />
+            </a>
+          </div>
+          <div class="ef-footer__pagination">
+            <a data-hide-if-empty="#$[previousSiblingId];$[previousAction]" href="#$[previousSiblingId];$[previousAction]" role="button" aria-label="$[panelFooter_previousLink_ariaLabel]" class="ef-footer__button ef-footer__button--prev mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+              <i class="material-icons">&#xE408;</i>
+            </a>
+            <span data-hide-if-empty="$[containerIndex] / $[containerLength]" class="ef-footer__page">$[containerIndex] / $[containerLength]</span>
+            <a data-hide-if-empty="#$[nextSiblingId];$[nextAction]" href="#$[nextSiblingId];$[nextAction]" role="button" aria-label="$[panelFooter_nextLink_ariaLabel]" class="ef-footer__button ef-footer__button--next mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+              <i class="material-icons">&#xE409;</i>
+            </a>
+          </div>
+        </div>
+      </main>
+      <script type="x-component/x-data">
+        {''''overlayIdsToHide'''':''''$[overlayIdsToHide]'''',''''overlayIdsToShow'''':''''$[overlayIdsToShow]'''',''''overlayHideTimeout'''':0}
+      </script>
+    </div>
+    <script src="https://www.gstatic.com/earth/earthfeed/js/earthfeed.v23.x.min.js"></script>
+    <script>componentHandler.upgradeAllRegistered()</script>
+    <script type="x-component/x-template-string">
+      <EfTemplate>
+        <EfPanel theme="dark">
+          <EfPanelYoutubeVideo />
+          <EfPanelHeader>
+            <EfPanelFab />
+          </EfPanelHeader>
+          <EfPanelContent>
+            <EfPanelDescription />
+            <EfCtaButton />
+          </EfPanelContent>
+          <EfPanelFooter />
+        </EfPanel>
+      </EfTemplate>
+    </script>
+  </body>
+</html><!-- From cache. -->]]></text>
+        <gx:displayMode>panel</gx:displayMode>
+      </BalloonStyle>
+    </Style>
+    <Style id="sm43_video_n">
+      <IconStyle>
+        <scale>1.3</scale>
+        <Icon>
+          <href>https://www.gstatic.com/earthfeed/icons/pinlet_pink_ON_64.png</href>
+        </Icon>
+        <hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+        <gx:scalingMode>fixedScaling</gx:scalingMode>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <bgColor>ff383226</bgColor>
+        <text><![CDATA[<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="version" content="23.3.0" />
+    <style>
+      body {overflow: hidden; visibility: hidden}
+    </style>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500|Roboto+Slab|Material+Icons" type="text/css" />
+    <link rel="stylesheet" href="https://www.gstatic.com/earth/earthfeed/mdl/1.1.3/material.blue_grey-blue.min.css" />
+    <link rel="stylesheet" href="https://www.gstatic.com/earth/earthfeed/css/earthfeed.v23.x.min.css" type="text/css" />
+    <script src="https://www.gstatic.com/earth/earthfeed/mdl/1.3.0/material.min.js"></script>
+  </head>
+  <body>
+    <div data-component="EfPanel" class="ef-container ef-panel theme-dark">
+      <main class="ef-panel__main">
+        <figure data-component="EfPanelYoutubeVideo" class="ef-panel-youtube-video ">
+          <div class="ef-panel-youtube-video__image-container">
+            <div data-hide-if-filled="$[youtubePreviewUrl]" class="ef-panel-youtube-video__image" style="background-image: url('https://i1.ytimg.com/vi/$[youtubeVideoId]/0.jpg');"></div>
+            <div data-hide-if-empty="$[youtubePreviewUrl]" data-src="$[youtubePreviewUrl]" class="ef-panel-youtube-video__image ef-panel-youtube-video__image--optional"></div>
+            <a aria-label="$[panelYoutube_link_ariaLabel]" role="button" href="https://www.youtube.com/watch?v=$[youtubeVideoId]" class="ef-panel-youtube-video__link">
+              <div class="youtube-icon"></div>
+            </a>
+          </div>
+        </figure>
+        <div class="ef-panel-header ">
+          <h1 class="ef-panel-header__title">$[name]</h1>
+          <h2 class="ef-panel-header__subtitle">$[snippet]</h2>
+          <a href="#$[id];$[fabAction]" aria-label="$[panelFab_link_ariaLabel]" role="button" class="ef-panel-fab ef-panel-fab--flyto mdl-button mdl-js-button mdl-button--fab mdl-button--colored mdl-js-ripple-effect">
+            <svg width="48" height="48" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+              <path class="ef-panel-fab__icon ef-panel-fab__icon--flyto" d="M42.506 8.25c.106-.027.21-.04.312-.04.78 0 1.39.78 1.115 1.574L36.81 37.502c-.172.5-.638.802-1.125.802-.194 0-.39-.048-.576-.15L25.1 32.7l-6.967 7.028c-.68.7-2.11-.018-2.11-.993v-10.74L4.61 21.75c-.932-.52-.76-1.91.272-2.186L42.506 8.25zM19.05 27.08v7.084l21.3-22.33v-.146L19.05 27.08z" fill="#FFF" fill-rule="evenodd"></path>
+              <path class="ef-panel-fab__icon ef-panel-fab__icon--streetview" d="M24,17 C28.9705615,17 33,13.194421 33,9 C33,3.80557896 28.9705615,0 24,0 C19.029436,0 15,3.80557896 15,9 C15,13.194421 19.029436,17 24,17 Z M14,35 C13.6861635,35.4002019 13.725866,35.539573 13,36 C12.3828832,35.539573 11.341473,34.94568 11,35 C11.341473,34.94568 10.8591204,34.5896324 11,34 C11.6348205,32.2985717 14.3610537,21.9991987 15,20 C15.5607564,17.9236744 17.2540068,18.000351 17,18 L19,18 L24,27 L29,18 L31,18 C31.285115,18.000351 32.0562602,18.0770969 33,19 C33.215413,19.380836 33.3396705,20.4815199 33,20 L37,33 C36.8085563,33.33718 37.0542064,34.2387355 37,35 C36.8987063,34.8671104 36.6510838,34.94568 37,35 C36.6510838,34.94568 35.6874261,35.2038795 35,35 C34.1374882,35.67648 33.9394282,34.7609927 34,35 L31,27 L30,48 L26,48 L25,36 C24.6925235,35.8339873 24.5350735,35.539573 24,36 C23.6633458,35.539573 23.5105133,35.8339873 24,36 L22,48 L18,48 L17,27 C17.4544694,26.5101552 14.7393587,33.566825 14,35 Z" style="transform: translateX(3px)" fill="#FFFFFF"></path>
+            </svg>
+          </a>
+        </div>
+        <div class="ef-panel-content">
+          <p>$[description]</p>
+          <a href="$[ctaLink]" data-hide-if-empty="$[ctaText]" aria-label="$[panel_ctaLink_ariaLabel]" role="button" class="ef-cta-button mdl-button mdl-js-button">$[ctaText]</a>
+        </div>
+        <div class="ef-footer " data-component="EfPanelFooter">
+          <div class="ef-footer__logo-container">
+            <a href="$[logoLink]" data-hide-if-empty="$[logoImageUrl]" aria-label="$[panelFooter_logoLink_ariaLabel]" role="link">
+              <img data-src="$[logoImageUrl]" class="ef-footer__logo" />
+            </a>
+          </div>
+          <div class="ef-footer__pagination">
+            <a data-hide-if-empty="#$[previousSiblingId];$[previousAction]" href="#$[previousSiblingId];$[previousAction]" role="button" aria-label="$[panelFooter_previousLink_ariaLabel]" class="ef-footer__button ef-footer__button--prev mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+              <i class="material-icons">&#xE408;</i>
+            </a>
+            <span data-hide-if-empty="$[containerIndex] / $[containerLength]" class="ef-footer__page">$[containerIndex] / $[containerLength]</span>
+            <a data-hide-if-empty="#$[nextSiblingId];$[nextAction]" href="#$[nextSiblingId];$[nextAction]" role="button" aria-label="$[panelFooter_nextLink_ariaLabel]" class="ef-footer__button ef-footer__button--next mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+              <i class="material-icons">&#xE409;</i>
+            </a>
+          </div>
+        </div>
+      </main>
+      <script type="x-component/x-data">
+        {''''overlayIdsToHide'''':''''$[overlayIdsToHide]'''',''''overlayIdsToShow'''':''''$[overlayIdsToShow]'''',''''overlayHideTimeout'''':0}
+      </script>
+    </div>
+    <script src="https://www.gstatic.com/earth/earthfeed/js/earthfeed.v23.x.min.js"></script>
+    <script>componentHandler.upgradeAllRegistered()</script>
+    <script type="x-component/x-template-string">
+      <EfTemplate>
+        <EfPanel theme="dark">
+          <EfPanelYoutubeVideo />
+          <EfPanelHeader>
+            <EfPanelFab />
+          </EfPanelHeader>
+          <EfPanelContent>
+            <EfPanelDescription />
+            <EfCtaButton />
+          </EfPanelContent>
+          <EfPanelFooter />
+        </EfPanel>
+      </EfTemplate>
+    </script>
+  </body>
+</html><!-- From cache. -->]]></text>
+        <gx:displayMode>panel</gx:displayMode>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="sm43_image">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#sm43_image_n</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#sm43_image_h</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="sm43_image_h">
+      <IconStyle>
+        <scale>1.5</scale>
+        <Icon>
+          <href>https://www.gstatic.com/earthfeed/icons/pinlet_pink_ON_64.png</href>
+        </Icon>
+        <hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+        <gx:scalingMode>fixedScaling</gx:scalingMode>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <bgColor>ff383226</bgColor>
+        <text><![CDATA[<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="version" content="23.3.0" />
+    <style>
+      body {overflow: hidden; visibility: hidden}
+    </style>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500|Roboto+Slab|Material+Icons" type="text/css" />
+    <link rel="stylesheet" href="https://www.gstatic.com/earth/earthfeed/mdl/1.1.3/material.blue_grey-blue.min.css" />
+    <link rel="stylesheet" href="https://www.gstatic.com/earth/earthfeed/css/earthfeed.v23.x.min.css" type="text/css" />
+    <script src="https://www.gstatic.com/earth/earthfeed/mdl/1.3.0/material.min.js"></script>
+  </head>
+  <body>
+    <div data-component="EfPanel" class="ef-container ef-panel theme-dark">
+      <main class="ef-panel__main">
+        <figure class="ef-panel-image">
+          <div class="ef-panel-image__image-container">
+            <div class="ef-panel-image__image " style="background-image: url('$[imageUrl]');"></div>
+            <a data-hide-if-empty="#$[id]_lightbox;balloon" href="#$[id]_lightbox;balloon" aria-label="$[panelImage_link_ariaLabel]" role="link" class="ef-panel-image__link"></a>
+          </div>
+          <a data-hide-if-empty="#$[id]_lightbox;balloon" href="#$[id]_lightbox;balloon" aria-label="$[panelImage_zoom_ariaLabel]" role="button" class="ef-panel-image__zoom-container">
+            <span class="ef-panel-image__zoom-button mdl-button mdl-button--icon mdl-js-button">
+              <i class="material-icons">&#xE5D0;</i>
+            </span>
+          </a>
+        </figure>
+        <div class="ef-panel-header ">
+          <h1 class="ef-panel-header__title">$[name]</h1>
+          <h2 class="ef-panel-header__subtitle">$[snippet]</h2>
+          <a href="#$[id];$[fabAction]" aria-label="$[panelFab_link_ariaLabel]" role="button" class="ef-panel-fab ef-panel-fab--flyto mdl-button mdl-js-button mdl-button--fab mdl-button--colored mdl-js-ripple-effect">
+            <svg width="48" height="48" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+              <path class="ef-panel-fab__icon ef-panel-fab__icon--flyto" d="M42.506 8.25c.106-.027.21-.04.312-.04.78 0 1.39.78 1.115 1.574L36.81 37.502c-.172.5-.638.802-1.125.802-.194 0-.39-.048-.576-.15L25.1 32.7l-6.967 7.028c-.68.7-2.11-.018-2.11-.993v-10.74L4.61 21.75c-.932-.52-.76-1.91.272-2.186L42.506 8.25zM19.05 27.08v7.084l21.3-22.33v-.146L19.05 27.08z" fill="#FFF" fill-rule="evenodd"></path>
+              <path class="ef-panel-fab__icon ef-panel-fab__icon--streetview" d="M24,17 C28.9705615,17 33,13.194421 33,9 C33,3.80557896 28.9705615,0 24,0 C19.029436,0 15,3.80557896 15,9 C15,13.194421 19.029436,17 24,17 Z M14,35 C13.6861635,35.4002019 13.725866,35.539573 13,36 C12.3828832,35.539573 11.341473,34.94568 11,35 C11.341473,34.94568 10.8591204,34.5896324 11,34 C11.6348205,32.2985717 14.3610537,21.9991987 15,20 C15.5607564,17.9236744 17.2540068,18.000351 17,18 L19,18 L24,27 L29,18 L31,18 C31.285115,18.000351 32.0562602,18.0770969 33,19 C33.215413,19.380836 33.3396705,20.4815199 33,20 L37,33 C36.8085563,33.33718 37.0542064,34.2387355 37,35 C36.8987063,34.8671104 36.6510838,34.94568 37,35 C36.6510838,34.94568 35.6874261,35.2038795 35,35 C34.1374882,35.67648 33.9394282,34.7609927 34,35 L31,27 L30,48 L26,48 L25,36 C24.6925235,35.8339873 24.5350735,35.539573 24,36 C23.6633458,35.539573 23.5105133,35.8339873 24,36 L22,48 L18,48 L17,27 C17.4544694,26.5101552 14.7393587,33.566825 14,35 Z" style="transform: translateX(3px)" fill="#FFFFFF"></path>
+            </svg>
+          </a>
+        </div>
+        <div class="ef-panel-content">
+          <p>$[description]</p>
+          <a href="$[ctaLink]" data-hide-if-empty="$[ctaText]" aria-label="$[panel_ctaLink_ariaLabel]" role="button" class="ef-cta-button mdl-button mdl-js-button">$[ctaText]</a>
+        </div>
+        <div class="ef-footer " data-component="EfPanelFooter">
+          <div class="ef-footer__logo-container">
+            <a href="$[logoLink]" data-hide-if-empty="$[logoImageUrl]" aria-label="$[panelFooter_logoLink_ariaLabel]" role="link">
+              <img data-src="$[logoImageUrl]" class="ef-footer__logo" />
+            </a>
+          </div>
+          <div class="ef-footer__pagination">
+            <a data-hide-if-empty="#$[previousSiblingId];$[previousAction]" href="#$[previousSiblingId];$[previousAction]" role="button" aria-label="$[panelFooter_previousLink_ariaLabel]" class="ef-footer__button ef-footer__button--prev mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+              <i class="material-icons">&#xE408;</i>
+            </a>
+            <span data-hide-if-empty="$[containerIndex] / $[containerLength]" class="ef-footer__page">$[containerIndex] / $[containerLength]</span>
+            <a data-hide-if-empty="#$[nextSiblingId];$[nextAction]" href="#$[nextSiblingId];$[nextAction]" role="button" aria-label="$[panelFooter_nextLink_ariaLabel]" class="ef-footer__button ef-footer__button--next mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+              <i class="material-icons">&#xE409;</i>
+            </a>
+          </div>
+        </div>
+      </main>
+      <script type="x-component/x-data">
+        {''''overlayIdsToHide'''':''''$[overlayIdsToHide]'''',''''overlayIdsToShow'''':''''$[overlayIdsToShow]'''',''''overlayHideTimeout'''':0}
+      </script>
+    </div>
+    <script src="https://www.gstatic.com/earth/earthfeed/js/earthfeed.v23.x.min.js"></script>
+    <script>componentHandler.upgradeAllRegistered()</script>
+    <script type="x-component/x-template-string">
+      <EfTemplate>
+        <EfPanel theme="dark">
+          <EfPanelImage />
+          <EfPanelHeader>
+            <EfPanelFab />
+          </EfPanelHeader>
+          <EfPanelContent>
+            <EfPanelDescription />
+            <EfCtaButton />
+          </EfPanelContent>
+          <EfPanelFooter />
+        </EfPanel>
+      </EfTemplate>
+    </script>
+  </body>
+</html><!-- From cache. -->]]></text>
+        <gx:displayMode>panel</gx:displayMode>
+      </BalloonStyle>
+    </Style>
+    <Style id="sm43_image_n">
+      <IconStyle>
+        <scale>1.3</scale>
+        <Icon>
+          <href>https://www.gstatic.com/earthfeed/icons/pinlet_pink_ON_64.png</href>
+        </Icon>
+        <hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+        <gx:scalingMode>fixedScaling</gx:scalingMode>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <bgColor>ff383226</bgColor>
+        <text><![CDATA[<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="version" content="23.3.0" />
+    <style>
+      body {overflow: hidden; visibility: hidden}
+    </style>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500|Roboto+Slab|Material+Icons" type="text/css" />
+    <link rel="stylesheet" href="https://www.gstatic.com/earth/earthfeed/mdl/1.1.3/material.blue_grey-blue.min.css" />
+    <link rel="stylesheet" href="https://www.gstatic.com/earth/earthfeed/css/earthfeed.v23.x.min.css" type="text/css" />
+    <script src="https://www.gstatic.com/earth/earthfeed/mdl/1.3.0/material.min.js"></script>
+  </head>
+  <body>
+    <div data-component="EfPanel" class="ef-container ef-panel theme-dark">
+      <main class="ef-panel__main">
+        <figure class="ef-panel-image">
+          <div class="ef-panel-image__image-container">
+            <div class="ef-panel-image__image " style="background-image: url('$[imageUrl]');"></div>
+            <a data-hide-if-empty="#$[id]_lightbox;balloon" href="#$[id]_lightbox;balloon" aria-label="$[panelImage_link_ariaLabel]" role="link" class="ef-panel-image__link"></a>
+          </div>
+          <a data-hide-if-empty="#$[id]_lightbox;balloon" href="#$[id]_lightbox;balloon" aria-label="$[panelImage_zoom_ariaLabel]" role="button" class="ef-panel-image__zoom-container">
+            <span class="ef-panel-image__zoom-button mdl-button mdl-button--icon mdl-js-button">
+              <i class="material-icons">&#xE5D0;</i>
+            </span>
+          </a>
+        </figure>
+        <div class="ef-panel-header ">
+          <h1 class="ef-panel-header__title">$[name]</h1>
+          <h2 class="ef-panel-header__subtitle">$[snippet]</h2>
+          <a href="#$[id];$[fabAction]" aria-label="$[panelFab_link_ariaLabel]" role="button" class="ef-panel-fab ef-panel-fab--flyto mdl-button mdl-js-button mdl-button--fab mdl-button--colored mdl-js-ripple-effect">
+            <svg width="48" height="48" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+              <path class="ef-panel-fab__icon ef-panel-fab__icon--flyto" d="M42.506 8.25c.106-.027.21-.04.312-.04.78 0 1.39.78 1.115 1.574L36.81 37.502c-.172.5-.638.802-1.125.802-.194 0-.39-.048-.576-.15L25.1 32.7l-6.967 7.028c-.68.7-2.11-.018-2.11-.993v-10.74L4.61 21.75c-.932-.52-.76-1.91.272-2.186L42.506 8.25zM19.05 27.08v7.084l21.3-22.33v-.146L19.05 27.08z" fill="#FFF" fill-rule="evenodd"></path>
+              <path class="ef-panel-fab__icon ef-panel-fab__icon--streetview" d="M24,17 C28.9705615,17 33,13.194421 33,9 C33,3.80557896 28.9705615,0 24,0 C19.029436,0 15,3.80557896 15,9 C15,13.194421 19.029436,17 24,17 Z M14,35 C13.6861635,35.4002019 13.725866,35.539573 13,36 C12.3828832,35.539573 11.341473,34.94568 11,35 C11.341473,34.94568 10.8591204,34.5896324 11,34 C11.6348205,32.2985717 14.3610537,21.9991987 15,20 C15.5607564,17.9236744 17.2540068,18.000351 17,18 L19,18 L24,27 L29,18 L31,18 C31.285115,18.000351 32.0562602,18.0770969 33,19 C33.215413,19.380836 33.3396705,20.4815199 33,20 L37,33 C36.8085563,33.33718 37.0542064,34.2387355 37,35 C36.8987063,34.8671104 36.6510838,34.94568 37,35 C36.6510838,34.94568 35.6874261,35.2038795 35,35 C34.1374882,35.67648 33.9394282,34.7609927 34,35 L31,27 L30,48 L26,48 L25,36 C24.6925235,35.8339873 24.5350735,35.539573 24,36 C23.6633458,35.539573 23.5105133,35.8339873 24,36 L22,48 L18,48 L17,27 C17.4544694,26.5101552 14.7393587,33.566825 14,35 Z" style="transform: translateX(3px)" fill="#FFFFFF"></path>
+            </svg>
+          </a>
+        </div>
+        <div class="ef-panel-content">
+          <p>$[description]</p>
+          <a href="$[ctaLink]" data-hide-if-empty="$[ctaText]" aria-label="$[panel_ctaLink_ariaLabel]" role="button" class="ef-cta-button mdl-button mdl-js-button">$[ctaText]</a>
+        </div>
+        <div class="ef-footer " data-component="EfPanelFooter">
+          <div class="ef-footer__logo-container">
+            <a href="$[logoLink]" data-hide-if-empty="$[logoImageUrl]" aria-label="$[panelFooter_logoLink_ariaLabel]" role="link">
+              <img data-src="$[logoImageUrl]" class="ef-footer__logo" />
+            </a>
+          </div>
+          <div class="ef-footer__pagination">
+            <a data-hide-if-empty="#$[previousSiblingId];$[previousAction]" href="#$[previousSiblingId];$[previousAction]" role="button" aria-label="$[panelFooter_previousLink_ariaLabel]" class="ef-footer__button ef-footer__button--prev mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+              <i class="material-icons">&#xE408;</i>
+            </a>
+            <span data-hide-if-empty="$[containerIndex] / $[containerLength]" class="ef-footer__page">$[containerIndex] / $[containerLength]</span>
+            <a data-hide-if-empty="#$[nextSiblingId];$[nextAction]" href="#$[nextSiblingId];$[nextAction]" role="button" aria-label="$[panelFooter_nextLink_ariaLabel]" class="ef-footer__button ef-footer__button--next mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+              <i class="material-icons">&#xE409;</i>
+            </a>
+          </div>
+        </div>
+      </main>
+      <script type="x-component/x-data">
+        {''''overlayIdsToHide'''':''''$[overlayIdsToHide]'''',''''overlayIdsToShow'''':''''$[overlayIdsToShow]'''',''''overlayHideTimeout'''':0}
+      </script>
+    </div>
+    <script src="https://www.gstatic.com/earth/earthfeed/js/earthfeed.v23.x.min.js"></script>
+    <script>componentHandler.upgradeAllRegistered()</script>
+    <script type="x-component/x-template-string">
+      <EfTemplate>
+        <EfPanel theme="dark">
+          <EfPanelImage />
+          <EfPanelHeader>
+            <EfPanelFab />
+          </EfPanelHeader>
+          <EfPanelContent>
+            <EfPanelDescription />
+            <EfCtaButton />
+          </EfPanelContent>
+          <EfPanelFooter />
+        </EfPanel>
+      </EfTemplate>
+    </script>
+  </body>
+</html><!-- From cache. -->]]></text>
+        <gx:displayMode>panel</gx:displayMode>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="sm43_splash">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#sm43_splash_n</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#sm43_splash_h</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="sm43_splash_h">
+      <IconStyle>
+        <scale>1.8</scale>
+        <Icon>
+          <href>https://www.gstatic.com/earthfeed/icons/pinlet_green_ON_64.png</href>
+        </Icon>
+        <hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+        <gx:scalingMode>fixedScaling</gx:scalingMode>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <bgColor>ff383226</bgColor>
+        <text><![CDATA[<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="version" content="23.3.0" />
+    <style>
+      body {overflow: hidden; visibility: hidden}
+    </style>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500|Roboto+Slab|Material+Icons" type="text/css" />
+    <link rel="stylesheet" href="https://www.gstatic.com/earth/earthfeed/mdl/1.1.3/material.blue_grey-blue.min.css" />
+    <link rel="stylesheet" href="https://www.gstatic.com/earth/earthfeed/css/earthfeed.v23.x.min.css" type="text/css" />
+    <script src="https://www.gstatic.com/earth/earthfeed/mdl/1.3.0/material.min.js"></script>
+  </head>
+  <body>
+    <div data-component="EfSplash" class="ef-container ef-splash">
+      <main class="ef-splash__main ef-splash__main--$[styleModifier] " style="background-image:  url($[imageUrl]);">
+        <div class="ef-background-video" data-component="EfBackgroundVideo" data-hide-if-empty="$[videoUrl]">
+          <video class="ef-background-video__video" data-poster="$[imageUrl]" muted preload="auto" autoplay loop>
+            <source data-src="$[videoUrl]" type="video/mp4" />
+          </video>
+        </div>
+        <div data-hide-if-empty="$[logoImageUrl]" class="ef-splash__logo-container">
+          <a href="$[logoLink]" role="link" aria-label="$[splash_logoLink_ariaLabel]">
+            <img data-src="$[logoImageUrl]" class="ef-splash__logo-image" />
+          </a>
+        </div>
+        <div class="ef-splash__content">
+          <h1 class="ef-splash__title" style="font-family: ">$[name]</h1>
+          <p class="ef-splash__description">$[description]</p>
+          <a href="#$[targetId];$[targetAction]" role="button" aria-label="$[splash_buttonLink_ariaLabel]" class="ef-splash__button mdl-button mdl-button--raised mdl-button--colored mdl-js-button mdl-js-ripple-effect">$[buttonText]</a>
+        </div>
+        <div class="ef-splash__credit" data-hide-if-empty="$[captionText]">
+          <a href="$[captionLink]" aria-label="$[splash_captionLink_ariaLabel]" role="link">$[captionText]</a>
+        </div>
+      </main>
+    </div>
+    <script src="https://www.gstatic.com/earth/earthfeed/js/earthfeed.v23.x.min.js"></script>
+    <script>componentHandler.upgradeAllRegistered()</script>
+    <script type="x-component/x-template-string">
+      <EfTemplate>
+        <EfSplash />
+      </EfTemplate>
+    </script>
+  </body>
+</html><!-- From cache. -->]]></text>
+        <gx:displayMode>fullscreen</gx:displayMode>
+      </BalloonStyle>
+    </Style>
+    <Style id="sm43_splash_n">
+      <IconStyle>
+        <scale>1.5</scale>
+        <Icon>
+          <href>https://www.gstatic.com/earthfeed/icons/pinlet_green_ON_64.png</href>
+        </Icon>
+        <hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+        <gx:scalingMode>fixedScaling</gx:scalingMode>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <bgColor>ff383226</bgColor>
+        <text><![CDATA[<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="version" content="23.3.0" />
+    <style>
+      body {overflow: hidden; visibility: hidden}
+    </style>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500|Roboto+Slab|Material+Icons" type="text/css" />
+    <link rel="stylesheet" href="https://www.gstatic.com/earth/earthfeed/mdl/1.1.3/material.blue_grey-blue.min.css" />
+    <link rel="stylesheet" href="https://www.gstatic.com/earth/earthfeed/css/earthfeed.v23.x.min.css" type="text/css" />
+    <script src="https://www.gstatic.com/earth/earthfeed/mdl/1.3.0/material.min.js"></script>
+  </head>
+  <body>
+    <div data-component="EfSplash" class="ef-container ef-splash">
+      <main class="ef-splash__main ef-splash__main--$[styleModifier] " style="background-image:  url($[imageUrl]);">
+        <div class="ef-background-video" data-component="EfBackgroundVideo" data-hide-if-empty="$[videoUrl]">
+          <video class="ef-background-video__video" data-poster="$[imageUrl]" muted preload="auto" autoplay loop>
+            <source data-src="$[videoUrl]" type="video/mp4" />
+          </video>
+        </div>
+        <div data-hide-if-empty="$[logoImageUrl]" class="ef-splash__logo-container">
+          <a href="$[logoLink]" role="link" aria-label="$[splash_logoLink_ariaLabel]">
+            <img data-src="$[logoImageUrl]" class="ef-splash__logo-image" />
+          </a>
+        </div>
+        <div class="ef-splash__content">
+          <h1 class="ef-splash__title" style="font-family: ">$[name]</h1>
+          <p class="ef-splash__description">$[description]</p>
+          <a href="#$[targetId];$[targetAction]" role="button" aria-label="$[splash_buttonLink_ariaLabel]" class="ef-splash__button mdl-button mdl-button--raised mdl-button--colored mdl-js-button mdl-js-ripple-effect">$[buttonText]</a>
+        </div>
+        <div class="ef-splash__credit" data-hide-if-empty="$[captionText]">
+          <a href="$[captionLink]" aria-label="$[splash_captionLink_ariaLabel]" role="link">$[captionText]</a>
+        </div>
+      </main>
+    </div>
+    <script src="https://www.gstatic.com/earth/earthfeed/js/earthfeed.v23.x.min.js"></script>
+    <script>componentHandler.upgradeAllRegistered()</script>
+    <script type="x-component/x-template-string">
+      <EfTemplate>
+        <EfSplash />
+      </EfTemplate>
+    </script>
+  </body>
+</html><!-- From cache. -->]]></text>
+        <gx:displayMode>fullscreen</gx:displayMode>
+      </BalloonStyle>
+    </Style>
+    <Folder id="voy_splash">
+      <name>Reducing Plant Extinction</name>
+      <visibility>1</visibility>
+      <open>1</open>
+      <snippet/>
+      <description>Join us as we fly around the world to find some of these remote wilderness areas which are home to rare and endangered plants.</description>
+      <LookAt>
+        <longitude>21.294939</longitude>
+        <latitude>12.732009</latitude>
+        <altitude>0</altitude>
+        <heading>0</heading>
+        <tilt>0</tilt>
+        <range>19244398</range>
+        <altitudeMode>clampToGround</altitudeMode>
+      </LookAt>
+      <styleUrl>#sm43_splash</styleUrl>
+      <ExtendedData>
+        <Data name="imageUrl">
+          <value>https://lh3.googleusercontent.com/gxh8xkbzavaHuCahC_6qBoWUtTQx2o5WhSA5ii-MxdyESkhte0mBzD57fpTfj7C6=s1280</value>
+        </Data>
+        <Data name="videoUrl">
+          <value>https://www.gstatic.com/earthfeed/kew-gardens/videos/kew_splash.mp4</value>
+        </Data>
+        <Data name="logoImageUrl">
+          <value>https://www.gstatic.com/earthfeed/kew-gardens/logos/kew_logo_2015_w_500pic_transparant.png</value>
+        </Data>
+        <Data name="targetId">
+          <value>voy_point_1</value>
+        </Data>
+        <Data name="targetAction">
+          <value>balloonFlyto</value>
+        </Data>
+        <Data name="buttonText">
+          <value>Start Exploring</value>
+        </Data>
+        <Data name="overlayIdsToHide">
+          <value>bolivia1,bolivia2,bolivia3,bolivia4,bolivia5,bolivia6,bolivia7</value>
+        </Data>
+        <Data name="splash_captionLink_ariaLabel">
+          <value>Caption</value>
+        </Data>
+        <Data name="splash_logoLink_ariaLabel">
+          <value>Logo</value>
+        </Data>
+        <Data name="splash_buttonLink_ariaLabel">
+          <value>$[buttonText]</value>
+        </Data>
+      </ExtendedData>
+      <Placemark id="voy_point_1">
+        <name>Tropical Important Plant Areas</name>
+        <visibility>0</visibility>
+        <snippet>Understanding and valuing plants</snippet>
+        <description>A fifth of the world&#8217;s plant species is threatened with extinction and many of these occur in the tropics.&lt;br&gt;&lt;br&gt;Science has always been at the heart of the Royal Botanic Gardens, Kew. Our research, partnerships and collections contribute to solving some of the most important issues facing our planet.&lt;br&gt;&lt;br&gt;Kew is identifying concentrations of threatened species in the tropics, designating them as Tropical Important Plant Areas (TIPAs) and enabling national authorities to prioritize their protection.&lt;br&gt;&lt;br&gt;As many tropical countries have limited resources for this work, Kew is leading the project, but we rely on our in-country partners for their expertise, knowledge and collaboration.</description>
+        <LookAt>
+          <longitude>21.294939</longitude>
+          <latitude>12.732009</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>19244398</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+        <styleUrl>#sm43_carousel</styleUrl>
+        <ExtendedData>
+          <Data name="carouselImageUrl-1">
+            <value>https://lh3.googleusercontent.com/-Mj0v7wypRaSsLNpJvxJEsU6me20LZDXSD_Pi3hc-_RuyqbDG-94IWxOENX-gMCD=w480-h288-n-rj</value>
+          </Data>
+          <Data name="carouselCaptionText-1">
+            <value>Navigating the tropical rainforest by canoe provides access to remote areas. This is often most efficient way to travel through dense forest provided there is sufficient water, not too much debris and few rapids. Photo credit: Copyright &#169; RBG Kew/J.Williams</value>
+          </Data>
+          <Data name="carouselImageUrl-2">
+            <value>https://lh3.googleusercontent.com/L2OM0W5KD1ee9bTAr1ZcQ8ssPGli6VjvxhkhcviDAnTezUXPKmPZmImKOCP-pWtY=w480-h288-n-rj</value>
+          </Data>
+          <Data name="carouselCaptionText-2">
+            <value>Pretty pink-capped mushroom growing on a rotten trunk in the tropical rainforest Photo credit: Copyright &#169; RBG Kew/J.Williams</value>
+          </Data>
+          <Data name="carouselImageUrl-3">
+            <value>https://lh3.googleusercontent.com/Ukq_7qLQFVg41hBOhpfRTcWycT6YtjSUC3MWaubgjRtOhkQ2VUOZc6aI76P0UWpXdA=w480-h288-n-rj</value>
+          </Data>
+          <Data name="carouselCaptionText-3">
+            <value>Arabica coffee, "mountain coffee" is one of 124 species of Coffea. Wild Arabica is considered important for the sustainability of the coffee industry due to its considerable genetic diversity. Photo credit: Copyright &#169; RBG Kew/J.Williams</value>
+          </Data>
+          <Data name="carouselImageUrl-4">
+            <value>https://lh3.googleusercontent.com/xu5ELxrLVV-5JdKMHYL5251ydai3eax9odpBeAuGu6lRIoWvuoEIo5WM9AIOGKhQbQ=w480-h288-n-rj</value>
+          </Data>
+          <Data name="carouselCaptionText-4">
+            <value>4x4 fieldwork vehicle Photo credit: Copyright &#169; RBG Kew/J.Williams</value>
+          </Data>
+          <Data name="carouselImageUrl-5">
+            <value>https://lh3.googleusercontent.com/eUgxj32l2mIAuKXyZbVtjAiJJyiTWilyfcJb2RZUlBh7WpT4dan4mvpQV7JYNpw8=w480-h288-n-rj</value>
+          </Data>
+          <Data name="carouselCaptionText-5">
+            <value>Narrow-leaf cotton bush (Milkweed) has many local medicinal uses. Root or plants are boiled, steeped and concentrated (decocted) to treat malaria, liver and abdominal pains. Photo credit: Copyright &#169; RBG Kew/J.Williams</value>
+          </Data>
+          <Data name="carouselImageUrl-6">
+            <value>https://lh3.googleusercontent.com/cJ9qKm0rih59Rfv9BF-1CGUP1xh2jyyXL0rnbP-sr48IWad7aokkykstvmU4expM=w480-h288-n-rj</value>
+          </Data>
+          <Data name="carouselCaptionText-6">
+            <value>Plants have many amazing textures, colors and structures. Nature and the simple perception of natural forms can have a profound effect upon our senses. Photo credit: Copyright &#169; RBG Kew/J.Williams</value>
+          </Data>
+          <Data name="carouselImageUrl-7">
+            <value>https://lh3.googleusercontent.com/0j3mjTv6Yzw65tOws3koM73E99bxaWAzYDjC1FutDXnGa7ZfxaSBOALrXxxSfhjZ=w480-h288-n-rj</value>
+          </Data>
+          <Data name="carouselCaptionText-7">
+            <value>Topographically diverse environments often contain many different micro-climates and habitat types. Unique vegetation types found in these areas can be home to many endemic species (exist only in one location on the planet). Photo credit: Copyright &#169; RBG Kew/J.Williams</value>
+          </Data>
+          <Data name="logoImageUrl">
+            <value>https://www.gstatic.com/earthfeed/kew-gardens/logos/kew_logo_2015_w_500pic_transparant.png</value>
+          </Data>
+          <Data name="logoLink">
+            <value>https://www.kew.org/science</value>
+          </Data>
+          <Data name="ctaLink">
+            <value>https://www.kew.org/science/who-we-are-and-what-we-do/strategic-outputs-2020/tropical-important-plant-areas</value>
+          </Data>
+          <Data name="ctaText">
+            <value>Tropical Important Plant Areas</value>
+          </Data>
+          <Data name="fabAction">
+            <value>flyto</value>
+          </Data>
+          <Data name="previousAction">
+            <value>balloonFlyto</value>
+          </Data>
+          <Data name="nextAction">
+            <value>balloonFlyto</value>
+          </Data>
+          <Data name="overlayIdsToHide">
+            <value>bolivia1,bolivia2,bolivia3,bolivia4,bolivia5,bolivia6,bolivia7</value>
+          </Data>
+          <Data name="panelCarousel_previousButton_ariaLabel">
+            <value>Previous image</value>
+          </Data>
+          <Data name="panelCarousel_link_ariaLabel">
+            <value>Expand image</value>
+          </Data>
+          <Data name="panelFab_link_ariaLabel">
+            <value>Fly to view</value>
+          </Data>
+          <Data name="panel_ctaLink_ariaLabel">
+            <value>$[ctaText]</value>
+          </Data>
+          <Data name="panelFooter_nextLink_ariaLabel">
+            <value>Next</value>
+          </Data>
+          <Data name="panelCarousel_nextButton_ariaLabel">
+            <value>Next image</value>
+          </Data>
+          <Data name="panelFooter_previousLink_ariaLabel">
+            <value>Previous</value>
+          </Data>
+          <Data name="panelCarousel_zoom_ariaLabel">
+            <value>Expand image</value>
+          </Data>
+          <Data name="panelFooter_logoLink_ariaLabel">
+            <value>Logo</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>15.29835911,33.45720114,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="voy_point_2">
+        <name>Guinea: Waterfall Spray</name>
+        <visibility>1</visibility>
+        <snippet>Cascades create specialised habitats for endangered plants</snippet>
+        <description>In Guinea, West Africa, Kew researchers are using Google Earth imagery to &#8216;fly&#8217; from river source to mouth, visually identifying areas of waterfalls and rapids. It's in these unexplored areas that new species are being found.&lt;br&gt;&lt;br&gt;Guinea has many rare vegetation types containing species that are at risk of extinction but finding them is not easy. Identifying these areas with Google Earth is the first step in protecting them. Further work in Guinea will help to understand the extent and prevalence of these very important waterfall habitats and may help in their protection against development pressures, especially damming and subsequent flooding.&lt;br&gt;&lt;br&gt;New infrastructure projects, along with continued habitat clearance for fuel and agriculture, are resulting in major losses of natural habitat in Guinea. Most of the plant species of highest global priority for conservation are currently outside protected areas and should be prioritized for conservation before they are lost forever.&lt;br&gt;&lt;br&gt;&lt;span style="display: block;margin-top:8px;font-size: 0.8em;font-style:italic;line-height:1.3;color:#aaa"&gt;Produced in partnership with &lt;a style="color:#aaa;text-decoration:none;font-weight:300" href="http://www.herbierguinee.org/" target="_blank"&gt;Herbier National de Guin&#233;e&lt;/a&gt;&lt;/span&gt;</description>
+        <LookAt>
+          <longitude>-12.43875702</longitude>
+          <latitude>11.08839114</latitude>
+          <altitude>892.49643245</altitude>
+          <heading>-127.85273512</heading>
+          <tilt>73.65606169</tilt>
+          <range>2014.66350242</range>
+          <altitudeMode>absolute</altitudeMode>
+        </LookAt>
+        <styleUrl>#sm43_carousel</styleUrl>
+        <ExtendedData>
+          <Data name="carouselImageUrl-1">
+            <value>https://lh3.googleusercontent.com/XYqYpwTt8Swr4uuiK4ZmAujnbgKmuX9HCP_U3EDdcQwSQEmZPTuxW_uMcbfUBu0=w480-h288-n-rj</value>
+          </Data>
+          <Data name="carouselCaptionText-1">
+            <value>Chutes de Salaa, Futa Djalon Highlands, Guinea. Home of five species of Podostemaceae and rumoured to be future hydropower site. Photo credit: Copyright &#169; RBG Kew/M.Cheek</value>
+          </Data>
+          <Data name="carouselImageUrl-2">
+            <value>https://lh3.googleusercontent.com/WgKgHCwc6nVqh6BJQhcV9vtOKJM9JtVf0r7laWySOt49_U7v97WhhzPnHnFOSqQw=w480-h288-n-rj</value>
+          </Data>
+          <Data name="carouselCaptionText-2">
+            <value>Voile de Marie (Bride&#8217;s veil falls) near Kindia Photo credit: Copyright &#169; RBG Kew/C.Couch</value>
+          </Data>
+          <Data name="carouselImageUrl-3">
+            <value>https://lh3.googleusercontent.com/IPii0YAnl_M-YELk-fix3hFUYfU0TJPpbUfbmUxpfTqaJBDnGesG7KGwnAx42Sbr=w480-h288-n-rj</value>
+          </Data>
+          <Data name="carouselCaptionText-3">
+            <value>After flowering, fruiting and leaving seed, most Podostemaceae die. They leave their roots in place on the rock, each species with a distinct pattern. Here three species are together, one of which appears unknown to science. Salla Falls. Photo credit: Copyright &#169; RBG Kew/M.Cheek</value>
+          </Data>
+          <Data name="carouselImageUrl-4">
+            <value>https://lh3.googleusercontent.com/9zu2-Dd6h0v7BZNQml1XBjROaZ7lnC2Tb7VsFGdvFiA6G2zK8_zmJHY7WaILt3w=w480-h288-n-rj</value>
+          </Data>
+          <Data name="carouselCaptionText-4">
+            <value>Rapids on the Samou River Photo credit: Copyright &#169; RBG Kew/C.Couch</value>
+          </Data>
+          <Data name="carouselImageUrl-5">
+            <value>https://lh3.googleusercontent.com/tMTh4SSwN_JlJ-1akxZXV6F5AwDAaHeuyz2ZT6ky_CusiQFwvaqaq0W-NoCxTm0v=w480-h288-n-rj</value>
+          </Data>
+          <Data name="carouselCaptionText-5">
+            <value>Ditinn Falls in the Fouta Djallon Photo credit: Copyright &#169; RBG Kew/C.Couch</value>
+          </Data>
+          <Data name="logoImageUrl">
+            <value>https://www.gstatic.com/earthfeed/kew-gardens/logos/kew_logo_2015_w_500pic_transparant.png</value>
+          </Data>
+          <Data name="logoLink">
+            <value>https://www.kew.org/science</value>
+          </Data>
+          <Data name="ctaLink">
+            <value>https://www.kew.org/science/projects/tipas-guinea-conakry-2016-2019</value>
+          </Data>
+          <Data name="ctaText">
+            <value>Identifying TIPAs of Guinea-Conakry</value>
+          </Data>
+          <Data name="fabAction">
+            <value>flyto</value>
+          </Data>
+          <Data name="previousAction">
+            <value>balloonFlyto</value>
+          </Data>
+          <Data name="nextAction">
+            <value>balloonFlyto</value>
+          </Data>
+          <Data name="overlayIdsToHide">
+            <value>bolivia1,bolivia2,bolivia3,bolivia4,bolivia5,bolivia6,bolivia7</value>
+          </Data>
+          <Data name="panelCarousel_previousButton_ariaLabel">
+            <value>Previous image</value>
+          </Data>
+          <Data name="panelCarousel_link_ariaLabel">
+            <value>Expand image</value>
+          </Data>
+          <Data name="panelFab_link_ariaLabel">
+            <value>Fly to view</value>
+          </Data>
+          <Data name="panel_ctaLink_ariaLabel">
+            <value>$[ctaText]</value>
+          </Data>
+          <Data name="panelFooter_nextLink_ariaLabel">
+            <value>Next</value>
+          </Data>
+          <Data name="panelCarousel_nextButton_ariaLabel">
+            <value>Next image</value>
+          </Data>
+          <Data name="panelFooter_previousLink_ariaLabel">
+            <value>Previous</value>
+          </Data>
+          <Data name="panelCarousel_zoom_ariaLabel">
+            <value>Expand image</value>
+          </Data>
+          <Data name="panelFooter_logoLink_ariaLabel">
+            <value>Logo</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>-12.43683549,11.09238048,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="voy_point_3">
+        <name>New Guinea: Island Treasures</name>
+        <visibility>1</visibility>
+        <snippet>The Botanical Treasures of Raja Ampat Islands</snippet>
+        <description>The Raja Ampat Islands, in Southeast Asia, were proposed as a UNESCO World Heritage Site in 2005 as some of the most biodiverse islands on Earth. While the Raja Ampat Islands are well-known for their marine life, attracting thousands of tourists annually, little is known about their terrestrial biodiversity because access is incredibly difficult.&lt;br&gt;&lt;br&gt;Preliminary surveys have highlighted the unique vegetation found here as important for conservation and there are a significant number of new species awaiting scientific discovery.&lt;br&gt;&lt;br&gt;New Guinea is the most mountainous and biodiverse island in the world. Nearly 50 percent of its 16,000 plant species are only found here. Understanding how New Guinea&#8217;s plant diversity is distributed across the island, how it evolved, and how it will cope with land use change and predicted climate change is important for coordinated conservation actions.&lt;br&gt;&lt;br&gt;&lt;span style="display: block;margin-top:8px;font-size: 0.8em;font-style:italic;line-height:1.3;color:#aaa"&gt;Produced in partnership with &lt;a style="color:#aaa;text-decoration:none;font-weight:300" href="http://www.papuabarat-icbe2018.org/" target="_blank"&gt;International Conference on Biodiversity, Ecotourism, and Creative Economy&lt;/a&gt;&lt;/span&gt;</description>
+        <LookAt>
+          <longitude>130.45624515</longitude>
+          <latitude>-1.97622039</latitude>
+          <altitude>21.09489709</altitude>
+          <heading>-3.87310645</heading>
+          <tilt>72.58358701</tilt>
+          <range>2734.374874</range>
+          <altitudeMode>absolute</altitudeMode>
+        </LookAt>
+        <styleUrl>#sm43_carousel</styleUrl>
+        <ExtendedData>
+          <Data name="carouselImageUrl-1">
+            <value>https://lh3.googleusercontent.com/-EDAjmDLhe3I/WjUR9IIRFtI/AAAAAAAADFc/yLshIPfXFWM2DZvxM4t_LjKTw_-7QfZEQCLIBGAYYCw/w480-h288-n-rj/</value>
+          </Data>
+          <Data name="carouselCaptionText-1">
+            <value>Photo credit: &lt;a href="https://www.google.com/maps/contrib/112838171156748730984/" target="_blank"&gt;ryan araginggang&lt;/a&gt;</value>
+          </Data>
+          <Data name="carouselImageUrl-2">
+            <value>https://lh3.googleusercontent.com/-6zxcMVV0Pyo/WjSuKvQnBrI/AAAAAAAAJMs/LU1vmM-wxvI4jrFCgrd7m_QlRlWLRSiKACLIBGAYYCw/w480-h288-n-rj/</value>
+          </Data>
+          <Data name="carouselCaptionText-2">
+            <value>Photo credit: &lt;a href="https://www.google.com/maps/contrib/112838171156748730984/" target="_blank"&gt;ryan araginggang&lt;/a&gt;</value>
+          </Data>
+          <Data name="carouselImageUrl-3">
+            <value>https://lh3.googleusercontent.com/-O1ljZCKB6sY/WNsVSQG2gYI/AAAAAAAAQQQ/9e4Px4RVL24dldsnB_Cu6_1dwmCHDC3pwCLIB/w480-h288-n-rj/</value>
+          </Data>
+          <Data name="carouselCaptionText-3">
+            <value>Photo credit: &lt;a href="https://www.google.com/maps/contrib/107108949202908744188/photos/" target="_blank"&gt;Anies Heriyanto&lt;/a&gt;</value>
+          </Data>
+          <Data name="logoImageUrl">
+            <value>https://www.gstatic.com/earthfeed/kew-gardens/logos/kew_logo_2015_w_500pic_transparant.png</value>
+          </Data>
+          <Data name="logoLink">
+            <value>https://www.kew.org/science</value>
+          </Data>
+          <Data name="ctaLink">
+            <value>https://www.kew.org/science/projects/tipas-indonesian-new-guinea</value>
+          </Data>
+          <Data name="ctaText">
+            <value>Identifying TIPAs of New Guinea</value>
+          </Data>
+          <Data name="fabAction">
+            <value>flyto</value>
+          </Data>
+          <Data name="previousAction">
+            <value>balloonFlyto</value>
+          </Data>
+          <Data name="nextAction">
+            <value>balloonFlyto</value>
+          </Data>
+          <Data name="overlayIdsToHide">
+            <value>bolivia1,bolivia2,bolivia3,bolivia4,bolivia5,bolivia6,bolivia7</value>
+          </Data>
+          <Data name="panelCarousel_previousButton_ariaLabel">
+            <value>Previous image</value>
+          </Data>
+          <Data name="panelCarousel_link_ariaLabel">
+            <value>Expand image</value>
+          </Data>
+          <Data name="panelFab_link_ariaLabel">
+            <value>Fly to view</value>
+          </Data>
+          <Data name="panel_ctaLink_ariaLabel">
+            <value>$[ctaText]</value>
+          </Data>
+          <Data name="panelFooter_nextLink_ariaLabel">
+            <value>Next</value>
+          </Data>
+          <Data name="panelCarousel_nextButton_ariaLabel">
+            <value>Next image</value>
+          </Data>
+          <Data name="panelFooter_previousLink_ariaLabel">
+            <value>Previous</value>
+          </Data>
+          <Data name="panelCarousel_zoom_ariaLabel">
+            <value>Expand image</value>
+          </Data>
+          <Data name="panelFooter_logoLink_ariaLabel">
+            <value>Logo</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>130.45620136,-1.98451374,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="voy_point_4">
+        <name>Bolivia: Rock Islands</name>
+        <visibility>1</visibility>
+        <snippet>Granite Rock Islands (Inselbergs)</snippet>
+        <description>In the dry forests of Bolivia, South America, isolated &#8216;islands&#8217; of granite rock can be found. They are often largely absent from maps and difficult to locate. These rock islands (inselbergs) are dominated by endemic and scarce plant species and are also host to an enigmatic group of aquatic plants associated with seasonal ponds that still remain unexplored.&lt;br&gt;&lt;br&gt;Google Earth imagery is being used to identify these granite inselbergs, which then help direct research and exploration on-the-ground. It is likely that many new plant species will be discovered in this rarely-visited remote area. Each green pin shown marks an example of an individual inselberg, or group of inselbergs.&lt;br&gt;&lt;br&gt;Bolivia is about five times the size of the UK and is classified as megadiverse. However, there are still vast areas of Bolivia that have never been surveyed for plant biodiversity. Many of these are severely threatened by the conversion of habitats to intensive soybean and cattle farming, road construction and extensive gas and oil exploration.&lt;br&gt;&lt;br&gt;&lt;span style="display: block;margin-top:8px;font-size: 0.8em;font-style:italic;line-height:1.3;color:#aaa"&gt;Produced in partnership with &lt;a style="color:#aaa;text-decoration:none;font-weight:300" href="http://museonoelkempff.org/museo/" target="_blank"&gt;The Noel Kempff Mercado Natural History Museum&lt;/a&gt;&lt;/span&gt;</description>
+        <LookAt>
+          <longitude>-61.88235696</longitude>
+          <latitude>-16.29183635</latitude>
+          <altitude>456.81124434</altitude>
+          <heading>68.99669018</heading>
+          <tilt>65.72340307</tilt>
+          <range>939.83923085</range>
+          <altitudeMode>absolute</altitudeMode>
+        </LookAt>
+        <styleUrl>#sm43_carousel</styleUrl>
+        <ExtendedData>
+          <Data name="carouselImageUrl-1">
+            <value>https://lh3.googleusercontent.com/j_jGUcHZvE4NOzxtyYJ_Pimc-JkYaDHSaWcAK4ixwGyjozoHTPim17-Gu-9OYPj8=w480-h288-n-rj</value>
+          </Data>
+          <Data name="carouselCaptionText-1">
+            <value>A temporary pool, with the aquatic &lt;i&gt;Heteranthera limosa&lt;/i&gt; (Blue Mudplantain) &#8211; fading in the afternoon sun &#8211; on the surface of a laja, a DODO (Drive-On-Drive-Off) inselberg, south of Concepci&#243;n, Departamento de Santa Cruz, Bolivia Photo credit: Copyright &#169; RBG Kew/D.J.N. Hind</value>
+          </Data>
+          <Data name="carouselImageUrl-2">
+            <value>https://lh3.googleusercontent.com/FjCNjwBYCGoG-zkpJ8cBVPtG55JAkXM2waknz04yrlStA4SMbF34T2Wb1DZMIG4=w480-h288-n-rj</value>
+          </Data>
+          <Data name="carouselCaptionText-2">
+            <value>A view from the side of the dome inselberg of El Cerrito, looking south over part of an inselberg archipelago, buried in a sea of dense Chiquitania dry forest, Departamento de Santa Cruz, Bolivia Photo credit: Copyright &#169; RBG Kew/D.J.N. Hind</value>
+          </Data>
+          <Data name="carouselImageUrl-3">
+            <value>https://lh3.googleusercontent.com/cwkxV3kaK5zFVjE7DM2PD3K3QdA8DlT-DIjZ4VwRLXG_JPDv7cGx8evfcaMoxmFJ=w480-h288-n-rj</value>
+          </Data>
+          <Data name="carouselCaptionText-3">
+            <value>The recently discovered species &lt;i&gt;Luetzelburgia sotoi&lt;/i&gt;, is a large shrub or small tree confined to Bolivian inselbergs. It is named after the Bolivian botanist Daniel Soto, a collaborator of RBG, Kew.  The species belongs to a small legume (pea and bean family) genus which was only known from Brazil until this new species was discovered and published in 2012. Photo credit: Copyright &#169; RBG Kew/Dr. Domingos Cardoso</value>
+          </Data>
+          <Data name="carouselImageUrl-4">
+            <value>https://lh3.googleusercontent.com/8rHU5MZrsE0Wqqv1tS9go4urse7q4wxuIVghNn1IYZSQqdwgHGGYocrL4JGIwu_j=w480-h288-n-rj</value>
+          </Data>
+          <Data name="carouselCaptionText-4">
+            <value>Looking up to the partly forest-clad domed inselberg of El Cerrito from one of the bottom lajas Photo credit: Copyright &#169; RBG Kew/D.J.N. Hind</value>
+          </Data>
+          <Data name="carouselImageUrl-5">
+            <value>https://lh3.googleusercontent.com/ejuhGaKtl_9A_Qqbf5k74jBBx0pnwxuLMEG-_GV0KYnDEYW5SiG39LTz8VUia6Dv=w480-h288-n-rj</value>
+          </Data>
+          <Data name="carouselCaptionText-5">
+            <value>The herbarium specimen used by Dr. Nicholas Hind, of RBG, Kew, to describe the Bolivian endemic &lt;i&gt;Neocuatrecasia epapposa&lt;/i&gt; (Compositae; the daisy family). It only grows in shallow pockets on inselbergs in &#209;uflo de Ch&#225;vez, Santa Cruz (Hind, 2014). Photo credit: Copyright &#169; RBG Kew</value>
+          </Data>
+          <Data name="logoImageUrl">
+            <value>https://www.gstatic.com/earthfeed/kew-gardens/logos/kew_logo_2015_w_500pic_transparant.png</value>
+          </Data>
+          <Data name="logoLink">
+            <value>https://www.kew.org/science</value>
+          </Data>
+          <Data name="ctaLink">
+            <value>https://www.kew.org/science/projects/tropical-important-plant-areas-tipas-in-bolivia</value>
+          </Data>
+          <Data name="ctaText">
+            <value>Identifying TIPAs of the Chiquitania</value>
+          </Data>
+          <Data name="fabAction">
+            <value>flyto</value>
+          </Data>
+          <Data name="previousAction">
+            <value>balloonFlyto</value>
+          </Data>
+          <Data name="nextAction">
+            <value>balloonFlyto</value>
+          </Data>
+          <Data name="overlayIdsToShow">
+            <value>bolivia1,bolivia2,bolivia3,bolivia4,bolivia5,bolivia6,bolivia7</value>
+          </Data>
+          <Data name="panelCarousel_previousButton_ariaLabel">
+            <value>Previous image</value>
+          </Data>
+          <Data name="panelCarousel_link_ariaLabel">
+            <value>Expand image</value>
+          </Data>
+          <Data name="panelFab_link_ariaLabel">
+            <value>Fly to view</value>
+          </Data>
+          <Data name="panel_ctaLink_ariaLabel">
+            <value>$[ctaText]</value>
+          </Data>
+          <Data name="panelFooter_nextLink_ariaLabel">
+            <value>Next</value>
+          </Data>
+          <Data name="panelCarousel_nextButton_ariaLabel">
+            <value>Next image</value>
+          </Data>
+          <Data name="panelFooter_previousLink_ariaLabel">
+            <value>Previous</value>
+          </Data>
+          <Data name="panelCarousel_zoom_ariaLabel">
+            <value>Expand image</value>
+          </Data>
+          <Data name="panelFooter_logoLink_ariaLabel">
+            <value>Logo</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>-61.88169663,-16.29132515,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="voy_point_5">
+        <name>Mozambique: Unique Plants</name>
+        <visibility>1</visibility>
+        <snippet>The Ribaue massif</snippet>
+        <description>The Ribaue massif in northern Mozambique is home to many rare plants, some of which are found nowhere else on earth. This area is therefore a fantastic candidate for Kew&#8217;s Tropical Important Plant Area designation and protection.&lt;br&gt;&lt;br&gt;Kew scientists recently used Google Earth imagery to plan fieldwork within the remaining forest patches and have recorded plant species that are potentially new to science, while at the same time witnessing the forest clearance that threatens them.&lt;br&gt;&lt;br&gt;More than 330 species of plants are only found within Mozambique. Many of Mozambique&#8217;s wild plant species have a recognized socio-economic value while other species and habitats perform valuable ecosystem services including watershed protection. Survival of these valuable plant species and habitats is severely threatened by human activities such as timber extraction, mining and land clearance for agriculture.&lt;br&gt;&lt;br&gt;&lt;span style="display: block;margin-top:8px;font-size: 0.8em;font-style:italic;line-height:1.3;color:#aaa"&gt;Produced in partnership with &lt;a style="color:#aaa;text-decoration:none;font-weight:300" href="http://www.iiam.gov.mz/" target="_blank"&gt;Mozambique Institute of Agricultural Research&lt;/a&gt;&lt;/span&gt;</description>
+        <LookAt>
+          <longitude>38.22113162</longitude>
+          <latitude>-14.85967753</latitude>
+          <altitude>671.34091303</altitude>
+          <heading>108.02885414</heading>
+          <tilt>70.91968409</tilt>
+          <range>20382.0604698</range>
+          <altitudeMode>absolute</altitudeMode>
+        </LookAt>
+        <styleUrl>#sm43_carousel</styleUrl>
+        <ExtendedData>
+          <Data name="carouselImageUrl-1">
+            <value>https://lh3.googleusercontent.com/x3DXJjGB7D1ErwREtJ2YEJGD-G83IggIQjVlBpACBmqj4-FS9D7l8x1gZqqb5jk=w480-h288-n-rj</value>
+          </Data>
+          <Data name="carouselCaptionText-1">
+            <value>This succulent Euphorbia species grows on the granite slopes. All the flowers on this plant are female. Photo credit: Copyright &#169; RBG Kew/J.Osborne</value>
+          </Data>
+          <Data name="carouselImageUrl-2">
+            <value>https://lh3.googleusercontent.com/J-SVD75ZvR0qRIjlTYOgxqc9D4X0Ek6-jra8mN1DmNMtKI8UKcoPbP5mpn43_Q6u=w480-h288-n-rj</value>
+          </Data>
+          <Data name="carouselCaptionText-2">
+            <value>The Ribaue massif in Mozambique Photo credit: Copyright &#169; RBG Kew/I.Darbyshire</value>
+          </Data>
+          <Data name="carouselImageUrl-3">
+            <value>https://lh3.googleusercontent.com/PCA400olM2xAqMbj_TM_8zzUjMmYtdoKL1lKC_iRKYFNSnFttd28qTvJl8_TXvLsxg=w480-h288-n-rj</value>
+          </Data>
+          <Data name="carouselCaptionText-3">
+            <value>Female flowers of a succulent Euphorbia sp Photo credit: Copyright &#169; RBG Kew/J.Osborne</value>
+          </Data>
+          <Data name="carouselImageUrl-4">
+            <value>https://lh3.googleusercontent.com/AG-ed09BeS0TDTwrvRCEUulDG1s8srDOsjx93ymQeU10aEZE6eoDpCPcXKRf9TI=w480-h288-n-rj</value>
+          </Data>
+          <Data name="carouselCaptionText-4">
+            <value>The Ribaue massif in Mozambique Photo credit: Copyright &#169; RBG Kew/J.Osborne</value>
+          </Data>
+          <Data name="carouselImageUrl-5">
+            <value>https://lh3.googleusercontent.com/DC8yHZlruEAxnYZMnE55VQObX4SkvFyrrQQdtUzfzJIvqUHV9NuK9hrQ26ofT36OlQ=w480-h288-n-rj</value>
+          </Data>
+          <Data name="carouselCaptionText-5">
+            <value>Fire is being used to clear the forest for small-scale cultivated fields called &#8216;machambas.&#8217; Photo credit: Copyright &#169; RBG Kew/J.Osborne</value>
+          </Data>
+          <Data name="logoImageUrl">
+            <value>https://www.gstatic.com/earthfeed/kew-gardens/logos/kew_logo_2015_w_500pic_transparant.png</value>
+          </Data>
+          <Data name="logoLink">
+            <value>https://www.kew.org/science</value>
+          </Data>
+          <Data name="ctaLink">
+            <value>https://www.kew.org/science/projects/tropical-important-plant-areas-tipas-mozambique</value>
+          </Data>
+          <Data name="ctaText">
+            <value>Identifying TIPAs of Mozambique</value>
+          </Data>
+          <Data name="fabAction">
+            <value>flyto</value>
+          </Data>
+          <Data name="previousAction">
+            <value>balloonFlyto</value>
+          </Data>
+          <Data name="nextAction">
+            <value>balloonFlyto</value>
+          </Data>
+          <Data name="overlayIdsToHide">
+            <value>bolivia1,bolivia2,bolivia3,bolivia4,bolivia5,bolivia6,bolivia7</value>
+          </Data>
+          <Data name="panelCarousel_previousButton_ariaLabel">
+            <value>Previous image</value>
+          </Data>
+          <Data name="panelCarousel_link_ariaLabel">
+            <value>Expand image</value>
+          </Data>
+          <Data name="panelFab_link_ariaLabel">
+            <value>Fly to view</value>
+          </Data>
+          <Data name="panel_ctaLink_ariaLabel">
+            <value>$[ctaText]</value>
+          </Data>
+          <Data name="panelFooter_nextLink_ariaLabel">
+            <value>Next</value>
+          </Data>
+          <Data name="panelCarousel_nextButton_ariaLabel">
+            <value>Next image</value>
+          </Data>
+          <Data name="panelFooter_previousLink_ariaLabel">
+            <value>Previous</value>
+          </Data>
+          <Data name="panelCarousel_zoom_ariaLabel">
+            <value>Expand image</value>
+          </Data>
+          <Data name="panelFooter_logoLink_ariaLabel">
+            <value>Logo</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>38.27417033,-14.88149195,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="voy_point_6">
+        <name>Cameroon: New Species Discovered</name>
+        <visibility>1</visibility>
+        <snippet>Ebo Proposed National Park</snippet>
+        <description>Amazing and ground-breaking new plant discoveries are being made within the proposed Ebo Forest National Park, Cameroon. This forest is rich in rare and threatened animal and plant species and is designated as one of Kew&#8217;s Tropical Important Plant Areas. Recent expeditions to remote parts of the forest have enabled many plant species to be collected which are turning out to be species unknown to science, including a new genus in the coffee tribe.&lt;br&gt;&lt;br&gt;Extensive field surveys and inventories have been undertaken throughout much of Cameroon. This massive amount of work has culminated in a species checklist of more than 7,500 species, including descriptions of 815 threatened taxa, and has contributed to the demarcation of five new protected areas by the government within the last 10 years.&lt;br&gt;&lt;br&gt;New Species (see photos above):&lt;br&gt;
+&lt;i&gt;Inversodicraea ebo&lt;/i&gt;: A bonsai tree-like plant growing on rocks in river rapids is only known from a single waterfall in the Ebo River (2017).&lt;br&gt;
+&lt;i&gt;Gilbertiodendron ebo&lt;/i&gt;: A large legume tree was described from samples collected in the Ebo Forest (2015).&lt;br&gt;&lt;br&gt;&lt;span style='display: block;margin-top:8px;font-size: 0.8em;font-style:italic;line-height:1.3'&gt;Produced in partnership with the Cameroon National Herbarium&lt;/span&gt;</description>
+        <LookAt>
+          <longitude>10.38207944</longitude>
+          <latitude>4.46498533</latitude>
+          <altitude>619.4583467</altitude>
+          <heading>49.99975475</heading>
+          <tilt>73.99700008</tilt>
+          <range>8145.94641148</range>
+          <altitudeMode>absolute</altitudeMode>
+        </LookAt>
+        <styleUrl>#sm43_carousel</styleUrl>
+        <ExtendedData>
+          <Data name="carouselImageUrl-1">
+            <value>https://lh3.googleusercontent.com/QSv3oo9Q1OgCyX4bMBN6NephjcYAEIK6yingwlBrq_I3D16b0rOvhm5fiLv0Mok=w480-h288-n-rj</value>
+          </Data>
+          <Data name="carouselCaptionText-1">
+            <value>Inversodicraea ebo was newly described in 2017, and is only known from a single waterfall in the Ebo River. Photo credit: Copyright &#169; RBG Kew/Xander van der Burgt</value>
+          </Data>
+          <Data name="carouselImageUrl-2">
+            <value>https://lh3.googleusercontent.com/conoZlRLSjFZXyKuZYPq3VQHLJq4_2JVmjFaRyQZBlbL6YUUraFD6UD5PDPANi7A=w480-h288-n-rj</value>
+          </Data>
+          <Data name="carouselCaptionText-2">
+            <value>A typical day collecting specimens in the tropical rainforest Photo credit: Copyright &#169; RBG Kew/Xander van der Burgt</value>
+          </Data>
+          <Data name="carouselImageUrl-3">
+            <value>https://lh3.googleusercontent.com/FIQuIF0UDKzeceofVUhC2u4meSGaIcl14sRl5Aq4do6BCxkFeMrw4ZZfB0rMsK8=w480-h288-n-rj</value>
+          </Data>
+          <Data name="carouselCaptionText-3">
+            <value>The forest in Cameroon&#8217;s Ebo Proposed National Park is rich in rare plant species. Photo credit: Copyright &#169; RBG Kew/Xander van der Burgt</value>
+          </Data>
+          <Data name="carouselImageUrl-4">
+            <value>https://lh3.googleusercontent.com/Vaq4Wmh3Uro5IcJKdfCM4ffs-rSbbSzWMVVPkwcJBo_I-sW8W1fbYBQqhK1BZqg=w480-h288-n-rj</value>
+          </Data>
+          <Data name="carouselCaptionText-4">
+            <value>The large legume tree Gilbertiodendron ebo was newly described from samples collected in the Ebo Forest. Photo credit: Copyright &#169; RBG Kew/Xander van der Burgt</value>
+          </Data>
+          <Data name="logoImageUrl">
+            <value>https://www.gstatic.com/earthfeed/kew-gardens/logos/kew_logo_2015_w_500pic_transparant.png</value>
+          </Data>
+          <Data name="logoLink">
+            <value>https://www.kew.org/science</value>
+          </Data>
+          <Data name="ctaLink">
+            <value>https://www.kew.org/science/who-we-are-and-what-we-do/strategic-outputs-2020/tropical-important-plant-areas</value>
+          </Data>
+          <Data name="ctaText">
+            <value>Determining Tropical Important Plant Areas</value>
+          </Data>
+          <Data name="fabAction">
+            <value>flyto</value>
+          </Data>
+          <Data name="previousAction">
+            <value>balloonFlyto</value>
+          </Data>
+          <Data name="nextAction">
+            <value>balloonFlyto</value>
+          </Data>
+          <Data name="overlayIdsToHide">
+            <value>bolivia1,bolivia2,bolivia3,bolivia4,bolivia5,bolivia6,bolivia7</value>
+          </Data>
+          <Data name="panelCarousel_previousButton_ariaLabel">
+            <value>Previous image</value>
+          </Data>
+          <Data name="panelCarousel_link_ariaLabel">
+            <value>Expand image</value>
+          </Data>
+          <Data name="panelFab_link_ariaLabel">
+            <value>Fly to view</value>
+          </Data>
+          <Data name="panel_ctaLink_ariaLabel">
+            <value>$[ctaText]</value>
+          </Data>
+          <Data name="panelFooter_nextLink_ariaLabel">
+            <value>Next</value>
+          </Data>
+          <Data name="panelCarousel_nextButton_ariaLabel">
+            <value>Next image</value>
+          </Data>
+          <Data name="panelFooter_previousLink_ariaLabel">
+            <value>Previous</value>
+          </Data>
+          <Data name="panelCarousel_zoom_ariaLabel">
+            <value>Expand image</value>
+          </Data>
+          <Data name="panelFooter_logoLink_ariaLabel">
+            <value>Logo</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>10.381389,4.453444,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Image Lightbox</name>
+      <Placemark id="voy_point_1_lightbox">
+        <name>Tropical Important Plant Areas</name>
+        <visibility>0</visibility>
+        <snippet/>
+        <description/>
+        <styleUrl>#sm43_carousel_lightbox</styleUrl>
+        <ExtendedData>
+          <Data name="carouselImageUrl-1">
+            <value>https://lh3.googleusercontent.com/-Mj0v7wypRaSsLNpJvxJEsU6me20LZDXSD_Pi3hc-_RuyqbDG-94IWxOENX-gMCD=w1728-h972-rj</value>
+          </Data>
+          <Data name="carouselCaptionText-1">
+            <value>Navigating the tropical rainforest by canoe provides access to remote areas. This is often most efficient way to travel through dense forest provided there is sufficient water, not too much debris and few rapids. Photo credit: Copyright &#169; RBG Kew/J.Williams</value>
+          </Data>
+          <Data name="carouselImageUrl-2">
+            <value>https://lh3.googleusercontent.com/L2OM0W5KD1ee9bTAr1ZcQ8ssPGli6VjvxhkhcviDAnTezUXPKmPZmImKOCP-pWtY=w1728-h972-rj</value>
+          </Data>
+          <Data name="carouselCaptionText-2">
+            <value>Pretty pink-capped mushroom growing on a rotten trunk in the tropical rainforest Photo credit: Copyright &#169; RBG Kew/J.Williams</value>
+          </Data>
+          <Data name="carouselImageUrl-3">
+            <value>https://lh3.googleusercontent.com/Ukq_7qLQFVg41hBOhpfRTcWycT6YtjSUC3MWaubgjRtOhkQ2VUOZc6aI76P0UWpXdA=w1728-h972-rj</value>
+          </Data>
+          <Data name="carouselCaptionText-3">
+            <value>Arabica coffee, "mountain coffee" is one of 124 species of Coffea. Wild Arabica is considered important for the sustainability of the coffee industry due to its considerable genetic diversity. Photo credit: Copyright &#169; RBG Kew/J.Williams</value>
+          </Data>
+          <Data name="carouselImageUrl-4">
+            <value>https://lh3.googleusercontent.com/xu5ELxrLVV-5JdKMHYL5251ydai3eax9odpBeAuGu6lRIoWvuoEIo5WM9AIOGKhQbQ=w1728-h972-rj</value>
+          </Data>
+          <Data name="carouselCaptionText-4">
+            <value>4x4 fieldwork vehicle Photo credit: Copyright &#169; RBG Kew/J.Williams</value>
+          </Data>
+          <Data name="carouselImageUrl-5">
+            <value>https://lh3.googleusercontent.com/eUgxj32l2mIAuKXyZbVtjAiJJyiTWilyfcJb2RZUlBh7WpT4dan4mvpQV7JYNpw8=w1728-h972-rj</value>
+          </Data>
+          <Data name="carouselCaptionText-5">
+            <value>Narrow-leaf cotton bush (Milkweed) has many local medicinal uses. Root or plants are boiled, steeped and concentrated (decocted) to treat malaria, liver and abdominal pains. Photo credit: Copyright &#169; RBG Kew/J.Williams</value>
+          </Data>
+          <Data name="carouselImageUrl-6">
+            <value>https://lh3.googleusercontent.com/cJ9qKm0rih59Rfv9BF-1CGUP1xh2jyyXL0rnbP-sr48IWad7aokkykstvmU4expM=w1728-h972-rj</value>
+          </Data>
+          <Data name="carouselCaptionText-6">
+            <value>Plants have many amazing textures, colors and structures. Nature and the simple perception of natural forms can have a profound effect upon our senses. Photo credit: Copyright &#169; RBG Kew/J.Williams</value>
+          </Data>
+          <Data name="carouselImageUrl-7">
+            <value>https://lh3.googleusercontent.com/0j3mjTv6Yzw65tOws3koM73E99bxaWAzYDjC1FutDXnGa7ZfxaSBOALrXxxSfhjZ=w1728-h972-rj</value>
+          </Data>
+          <Data name="carouselCaptionText-7">
+            <value>Topographically diverse environments often contain many different micro-climates and habitat types. Unique vegetation types found in these areas can be home to many endemic species (exist only in one location on the planet). Photo credit: Copyright &#169; RBG Kew/J.Williams</value>
+          </Data>
+          <Data name="lightboxCarousel_nextButton_ariaLabel">
+            <value>Next Image</value>
+          </Data>
+          <Data name="lightboxCarousel_previousButton_ariaLabel">
+            <value>Previous Image</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>0,0,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="voy_point_2_lightbox">
+        <name>Guinea: Waterfall Spray</name>
+        <visibility>0</visibility>
+        <snippet/>
+        <description/>
+        <styleUrl>#sm43_carousel_lightbox</styleUrl>
+        <ExtendedData>
+          <Data name="carouselImageUrl-1">
+            <value>https://lh3.googleusercontent.com/XYqYpwTt8Swr4uuiK4ZmAujnbgKmuX9HCP_U3EDdcQwSQEmZPTuxW_uMcbfUBu0=w1728-h972-rj</value>
+          </Data>
+          <Data name="carouselCaptionText-1">
+            <value>Chutes de Salaa, Futa Djalon Highlands, Guinea. Home of five species of Podostemaceae and rumoured to be future hydropower site. Photo credit: Copyright &#169; RBG Kew/M.Cheek</value>
+          </Data>
+          <Data name="carouselImageUrl-2">
+            <value>https://lh3.googleusercontent.com/SQ3sqLgseVuWPCaGYv-xvmc9TBYELdJ5kET8SaH1-d97il1JWXjJcdXFF5lJSVdl=w1728-h972-rj</value>
+          </Data>
+          <Data name="carouselCaptionText-2">
+            <value>Voile de Marie (Bride&#8217;s veil falls) near Kindia Photo credit: Copyright &#169; RBG Kew/C.Couch</value>
+          </Data>
+          <Data name="carouselImageUrl-3">
+            <value>https://lh3.googleusercontent.com/IPii0YAnl_M-YELk-fix3hFUYfU0TJPpbUfbmUxpfTqaJBDnGesG7KGwnAx42Sbr=w1728-h972-rj</value>
+          </Data>
+          <Data name="carouselCaptionText-3">
+            <value>After flowering, fruiting and leaving seed, most Podostemaceae die. They leave their roots in place on the rock, each species with a distinct pattern. Here three species are together, one of which appears unknown to science. Salla Falls. Photo credit: Copyright &#169; RBG Kew/M.Cheek</value>
+          </Data>
+          <Data name="carouselImageUrl-4">
+            <value>https://lh3.googleusercontent.com/9zu2-Dd6h0v7BZNQml1XBjROaZ7lnC2Tb7VsFGdvFiA6G2zK8_zmJHY7WaILt3w=w1728-h972-rj</value>
+          </Data>
+          <Data name="carouselCaptionText-4">
+            <value>Rapids on the Samou River Photo credit: Copyright &#169; RBG Kew/C.Couch</value>
+          </Data>
+          <Data name="carouselImageUrl-5">
+            <value>https://lh3.googleusercontent.com/tMTh4SSwN_JlJ-1akxZXV6F5AwDAaHeuyz2ZT6ky_CusiQFwvaqaq0W-NoCxTm0v=w1728-h972-rj</value>
+          </Data>
+          <Data name="carouselCaptionText-5">
+            <value>Ditinn Falls in the Fouta Djallon Photo credit: Copyright &#169; RBG Kew/C.Couch</value>
+          </Data>
+          <Data name="lightboxCarousel_nextButton_ariaLabel">
+            <value>Next Image</value>
+          </Data>
+          <Data name="lightboxCarousel_previousButton_ariaLabel">
+            <value>Previous Image</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>0,0,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="voy_point_3_lightbox">
+        <name>New Guinea: Island Treasures</name>
+        <visibility>0</visibility>
+        <snippet/>
+        <description/>
+        <styleUrl>#sm43_carousel_lightbox</styleUrl>
+        <ExtendedData>
+          <Data name="carouselImageUrl-1">
+            <value>https://lh3.googleusercontent.com/-EDAjmDLhe3I/WjUR9IIRFtI/AAAAAAAADFc/yLshIPfXFWM2DZvxM4t_LjKTw_-7QfZEQCLIBGAYYCw/w1728-h972-rj/</value>
+          </Data>
+          <Data name="carouselCaptionText-1">
+            <value>Photo credit: &lt;a href="https://www.google.com/maps/contrib/112838171156748730984/" target="_blank"&gt;ryan araginggang&lt;/a&gt;</value>
+          </Data>
+          <Data name="carouselImageUrl-2">
+            <value>https://lh3.googleusercontent.com/-6zxcMVV0Pyo/WjSuKvQnBrI/AAAAAAAAJMs/LU1vmM-wxvI4jrFCgrd7m_QlRlWLRSiKACLIBGAYYCw/w1728-h972-rj/</value>
+          </Data>
+          <Data name="carouselCaptionText-2">
+            <value>Photo credit: &lt;a href="https://www.google.com/maps/contrib/112838171156748730984/" target="_blank"&gt;ryan araginggang&lt;/a&gt;</value>
+          </Data>
+          <Data name="carouselImageUrl-3">
+            <value>https://lh3.googleusercontent.com/-O1ljZCKB6sY/WNsVSQG2gYI/AAAAAAAAQQQ/9e4Px4RVL24dldsnB_Cu6_1dwmCHDC3pwCLIB/w1728-h972-rj/</value>
+          </Data>
+          <Data name="carouselCaptionText-3">
+            <value>Photo credit: &lt;a href="https://www.google.com/maps/contrib/107108949202908744188/photos/" target="_blank"&gt;Anies Heriyanto&lt;/a&gt;</value>
+          </Data>
+          <Data name="lightboxCarousel_nextButton_ariaLabel">
+            <value>Next Image</value>
+          </Data>
+          <Data name="lightboxCarousel_previousButton_ariaLabel">
+            <value>Previous Image</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>0,0,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="voy_point_4_lightbox">
+        <name>Bolivia: Rock Islands</name>
+        <visibility>0</visibility>
+        <snippet/>
+        <description/>
+        <styleUrl>#sm43_carousel_lightbox</styleUrl>
+        <ExtendedData>
+          <Data name="carouselImageUrl-1">
+            <value>https://lh3.googleusercontent.com/j_jGUcHZvE4NOzxtyYJ_Pimc-JkYaDHSaWcAK4ixwGyjozoHTPim17-Gu-9OYPj8=w1728-h972-rj</value>
+          </Data>
+          <Data name="carouselCaptionText-1">
+            <value>A temporary pool, with the aquatic &lt;i&gt;Heteranthera limosa&lt;/i&gt; (Blue Mudplantain) &#8211; fading in the afternoon sun &#8211; on the surface of a laja, a DODO (Drive-On-Drive-Off) inselberg, south of Concepci&#243;n, Departamento de Santa Cruz, Bolivia Photo credit: Copyright &#169; RBG Kew/D.J.N. Hind</value>
+          </Data>
+          <Data name="carouselImageUrl-2">
+            <value>https://lh3.googleusercontent.com/FjCNjwBYCGoG-zkpJ8cBVPtG55JAkXM2waknz04yrlStA4SMbF34T2Wb1DZMIG4=w1728-h972-rj</value>
+          </Data>
+          <Data name="carouselCaptionText-2">
+            <value>A view from the side of the dome inselberg of El Cerrito, looking south over part of an inselberg archipelago, buried in a sea of dense Chiquitania dry forest, Departamento de Santa Cruz, Bolivia Photo credit: Copyright &#169; RBG Kew/D.J.N. Hind</value>
+          </Data>
+          <Data name="carouselImageUrl-3">
+            <value>https://lh3.googleusercontent.com/cwkxV3kaK5zFVjE7DM2PD3K3QdA8DlT-DIjZ4VwRLXG_JPDv7cGx8evfcaMoxmFJ=w1728-h972-rj</value>
+          </Data>
+          <Data name="carouselCaptionText-3">
+            <value>The recently discovered species &lt;i&gt;Luetzelburgia sotoi&lt;/i&gt;, is a large shrub or small tree confined to Bolivian inselbergs. It is named after the Bolivian botanist Daniel Soto, a collaborator of RBG, Kew.  The species belongs to a small legume (pea and bean family) genus which was only known from Brazil until this new species was discovered and published in 2012. Photo credit: Copyright &#169; RBG Kew/Dr. Domingos Cardoso</value>
+          </Data>
+          <Data name="carouselImageUrl-4">
+            <value>https://lh3.googleusercontent.com/8rHU5MZrsE0Wqqv1tS9go4urse7q4wxuIVghNn1IYZSQqdwgHGGYocrL4JGIwu_j=w1728-h972-rj</value>
+          </Data>
+          <Data name="carouselCaptionText-4">
+            <value>Looking up to the partly forest-clad domed inselberg of El Cerrito from one of the bottom lajas Photo credit: Copyright &#169; RBG Kew/D.J.N. Hind</value>
+          </Data>
+          <Data name="carouselImageUrl-5">
+            <value>https://lh3.googleusercontent.com/ejuhGaKtl_9A_Qqbf5k74jBBx0pnwxuLMEG-_GV0KYnDEYW5SiG39LTz8VUia6Dv=w1728-h972-rj</value>
+          </Data>
+          <Data name="carouselCaptionText-5">
+            <value>The herbarium specimen used by Dr. Nicholas Hind, of RBG, Kew, to describe the Bolivian endemic &lt;i&gt;Neocuatrecasia epapposa&lt;/i&gt; (Compositae; the daisy family). It only grows in shallow pockets on inselbergs in &#209;uflo de Ch&#225;vez, Santa Cruz (Hind, 2014). Photo credit: Copyright &#169; RBG Kew</value>
+          </Data>
+          <Data name="lightboxCarousel_nextButton_ariaLabel">
+            <value>Next Image</value>
+          </Data>
+          <Data name="lightboxCarousel_previousButton_ariaLabel">
+            <value>Previous Image</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>0,0,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="voy_point_5_lightbox">
+        <name>Mozambique: Unique Plants</name>
+        <visibility>0</visibility>
+        <snippet/>
+        <description/>
+        <styleUrl>#sm43_carousel_lightbox</styleUrl>
+        <ExtendedData>
+          <Data name="carouselImageUrl-1">
+            <value>https://lh3.googleusercontent.com/x3DXJjGB7D1ErwREtJ2YEJGD-G83IggIQjVlBpACBmqj4-FS9D7l8x1gZqqb5jk=w1728-h972-rj</value>
+          </Data>
+          <Data name="carouselCaptionText-1">
+            <value>This succulent Euphorbia species grows on the granite slopes. All the flowers on this plant are female. Photo credit: Copyright &#169; RBG Kew/J.Osborne</value>
+          </Data>
+          <Data name="carouselImageUrl-2">
+            <value>https://lh3.googleusercontent.com/J-SVD75ZvR0qRIjlTYOgxqc9D4X0Ek6-jra8mN1DmNMtKI8UKcoPbP5mpn43_Q6u=w1728-h972-rj</value>
+          </Data>
+          <Data name="carouselCaptionText-2">
+            <value>The Ribaue massif in Mozambique Photo credit: Copyright &#169; RBG Kew/I.Darbyshire</value>
+          </Data>
+          <Data name="carouselImageUrl-3">
+            <value>https://lh3.googleusercontent.com/PCA400olM2xAqMbj_TM_8zzUjMmYtdoKL1lKC_iRKYFNSnFttd28qTvJl8_TXvLsxg=w1728-h972-rj</value>
+          </Data>
+          <Data name="carouselCaptionText-3">
+            <value>Female flowers of a succulent Euphorbia sp Photo credit: Copyright &#169; RBG Kew/J.Osborne</value>
+          </Data>
+          <Data name="carouselImageUrl-4">
+            <value>https://lh3.googleusercontent.com/AG-ed09BeS0TDTwrvRCEUulDG1s8srDOsjx93ymQeU10aEZE6eoDpCPcXKRf9TI=w1728-h972-rj</value>
+          </Data>
+          <Data name="carouselCaptionText-4">
+            <value>The Ribaue massif in Mozambique Photo credit: Copyright &#169; RBG Kew/J.Osborne</value>
+          </Data>
+          <Data name="carouselImageUrl-5">
+            <value>https://lh3.googleusercontent.com/DC8yHZlruEAxnYZMnE55VQObX4SkvFyrrQQdtUzfzJIvqUHV9NuK9hrQ26ofT36OlQ=w1728-h972-rj</value>
+          </Data>
+          <Data name="carouselCaptionText-5">
+            <value>Fire is being used to clear the forest for small-scale cultivated fields called &#8216;machambas.&#8217; Photo credit: Copyright &#169; RBG Kew/J.Osborne</value>
+          </Data>
+          <Data name="lightboxCarousel_nextButton_ariaLabel">
+            <value>Next Image</value>
+          </Data>
+          <Data name="lightboxCarousel_previousButton_ariaLabel">
+            <value>Previous Image</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>0,0,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="voy_point_6_lightbox">
+        <name>Cameroon: New Species Discovered</name>
+        <visibility>0</visibility>
+        <snippet/>
+        <description/>
+        <styleUrl>#sm43_carousel_lightbox</styleUrl>
+        <ExtendedData>
+          <Data name="carouselImageUrl-1">
+            <value>https://lh3.googleusercontent.com/QSv3oo9Q1OgCyX4bMBN6NephjcYAEIK6yingwlBrq_I3D16b0rOvhm5fiLv0Mok=w1728-h972-rj</value>
+          </Data>
+          <Data name="carouselCaptionText-1">
+            <value>Inversodicraea ebo was newly described in 2017, and is only known from a single waterfall in the Ebo River. Photo credit: Copyright &#169; RBG Kew/Xander van der Burgt</value>
+          </Data>
+          <Data name="carouselImageUrl-2">
+            <value>https://lh3.googleusercontent.com/conoZlRLSjFZXyKuZYPq3VQHLJq4_2JVmjFaRyQZBlbL6YUUraFD6UD5PDPANi7A=w1728-h972-rj</value>
+          </Data>
+          <Data name="carouselCaptionText-2">
+            <value>A typical day collecting specimens in the tropical rainforest Photo credit: Copyright &#169; RBG Kew/Xander van der Burgt</value>
+          </Data>
+          <Data name="carouselImageUrl-3">
+            <value>https://lh3.googleusercontent.com/FIQuIF0UDKzeceofVUhC2u4meSGaIcl14sRl5Aq4do6BCxkFeMrw4ZZfB0rMsK8=w1728-h972-rj</value>
+          </Data>
+          <Data name="carouselCaptionText-3">
+            <value>The forest in Cameroon&#8217;s Ebo Proposed National Park is rich in rare plant species. Photo credit: Copyright &#169; RBG Kew/Xander van der Burgt</value>
+          </Data>
+          <Data name="carouselImageUrl-4">
+            <value>https://lh3.googleusercontent.com/Vaq4Wmh3Uro5IcJKdfCM4ffs-rSbbSzWMVVPkwcJBo_I-sW8W1fbYBQqhK1BZqg=w1728-h972-rj</value>
+          </Data>
+          <Data name="carouselCaptionText-4">
+            <value>The large legume tree Gilbertiodendron ebo was newly described from samples collected in the Ebo Forest. Photo credit: Copyright &#169; RBG Kew/Xander van der Burgt</value>
+          </Data>
+          <Data name="lightboxCarousel_nextButton_ariaLabel">
+            <value>Next Image</value>
+          </Data>
+          <Data name="lightboxCarousel_previousButton_ariaLabel">
+            <value>Previous Image</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>0,0,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Geometry</name>
+      <NetworkLink id="TIPA_countries">
+        <name>TIPA_countries</name>
+        <visibility>1</visibility>
+        <snippet/>
+        <description/>
+        <Link>
+          <href>https://www.gstatic.com/earthfeed/kew-gardens/kml/TIPA_countries.kmz</href>
+        </Link>
+      </NetworkLink>
+    </Folder>
+    <Folder>
+      <name>Bolivia Inselbergs</name>
+      <Placemark id="bolivia1">
+        <name>Santa Rosa inselberg complex</name>
+        <visibility>0</visibility>
+        <snippet/>
+        <description/>
+        <StyleMap>
+          <Pair>
+            <key>normal</key>
+            <Style>
+              <IconStyle>
+                <Icon>
+                  <href>https://www.gstatic.com/earthfeed/icons/pinlet_green_ON_64.png</href>
+                </Icon>
+                <hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+              </IconStyle>
+              <LabelStyle>
+                <scale>0</scale>
+              </LabelStyle>
+            </Style>
+          </Pair>
+          <Pair>
+            <key>highlight</key>
+            <Style>
+              <IconStyle>
+                <Icon>
+                  <href>https://www.gstatic.com/earthfeed/icons/pinlet_green_ON_64.png</href>
+                </Icon>
+                <hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+              </IconStyle>
+              <LabelStyle>
+                <scale>1.1</scale>
+              </LabelStyle>
+            </Style>
+          </Pair>
+        </StyleMap>
+        <Point>
+          <coordinates>-61.9242361112991,-16.246777777615,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="bolivia2">
+        <name>Tucumancito inselberg</name>
+        <visibility>0</visibility>
+        <snippet/>
+        <description/>
+        <StyleMap>
+          <Pair>
+            <key>normal</key>
+            <Style>
+              <IconStyle>
+                <Icon>
+                  <href>https://www.gstatic.com/earthfeed/icons/pinlet_green_ON_64.png</href>
+                </Icon>
+                <hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+              </IconStyle>
+              <LabelStyle>
+                <scale>0</scale>
+              </LabelStyle>
+            </Style>
+          </Pair>
+          <Pair>
+            <key>highlight</key>
+            <Style>
+              <IconStyle>
+                <Icon>
+                  <href>https://www.gstatic.com/earthfeed/icons/pinlet_green_ON_64.png</href>
+                </Icon>
+                <hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+              </IconStyle>
+              <LabelStyle>
+                <scale>1.1</scale>
+              </LabelStyle>
+            </Style>
+          </Pair>
+        </StyleMap>
+        <Point>
+          <coordinates>-61.9206298196374,-16.2731460851235,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="bolivia3">
+        <name>El Cerrito inselberg</name>
+        <visibility>0</visibility>
+        <snippet/>
+        <description/>
+        <StyleMap>
+          <Pair>
+            <key>normal</key>
+            <Style>
+              <IconStyle>
+                <Icon>
+                  <href>https://www.gstatic.com/earthfeed/icons/pinlet_green_ON_64.png</href>
+                </Icon>
+                <hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+              </IconStyle>
+              <LabelStyle>
+                <scale>0</scale>
+              </LabelStyle>
+            </Style>
+          </Pair>
+          <Pair>
+            <key>highlight</key>
+            <Style>
+              <IconStyle>
+                <Icon>
+                  <href>https://www.gstatic.com/earthfeed/icons/pinlet_green_ON_64.png</href>
+                </Icon>
+                <hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+              </IconStyle>
+              <LabelStyle>
+                <scale>1.1</scale>
+              </LabelStyle>
+            </Style>
+          </Pair>
+        </StyleMap>
+        <Point>
+          <coordinates>-61.8954642596058,-16.3077098080252,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="bolivia4">
+        <name>El Carmen inselberg</name>
+        <visibility>0</visibility>
+        <snippet/>
+        <description/>
+        <StyleMap>
+          <Pair>
+            <key>normal</key>
+            <Style>
+              <IconStyle>
+                <Icon>
+                  <href>https://www.gstatic.com/earthfeed/icons/pinlet_green_ON_64.png</href>
+                </Icon>
+                <hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+              </IconStyle>
+              <LabelStyle>
+                <scale>0</scale>
+              </LabelStyle>
+            </Style>
+          </Pair>
+          <Pair>
+            <key>highlight</key>
+            <Style>
+              <IconStyle>
+                <Icon>
+                  <href>https://www.gstatic.com/earthfeed/icons/pinlet_green_ON_64.png</href>
+                </Icon>
+                <hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+              </IconStyle>
+              <LabelStyle>
+                <scale>1.1</scale>
+              </LabelStyle>
+            </Style>
+          </Pair>
+        </StyleMap>
+        <Point>
+          <coordinates>-61.878880695885,-16.2901145675963,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="bolivia5">
+        <name>La Trinidad inselberg</name>
+        <visibility>0</visibility>
+        <snippet/>
+        <description/>
+        <StyleMap>
+          <Pair>
+            <key>normal</key>
+            <Style>
+              <IconStyle>
+                <Icon>
+                  <href>https://www.gstatic.com/earthfeed/icons/pinlet_green_ON_64.png</href>
+                </Icon>
+                <hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+              </IconStyle>
+              <LabelStyle>
+                <scale>0</scale>
+              </LabelStyle>
+            </Style>
+          </Pair>
+          <Pair>
+            <key>highlight</key>
+            <Style>
+              <IconStyle>
+                <Icon>
+                  <href>https://www.gstatic.com/earthfeed/icons/pinlet_green_ON_64.png</href>
+                </Icon>
+                <hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+              </IconStyle>
+              <LabelStyle>
+                <scale>1.1</scale>
+              </LabelStyle>
+            </Style>
+          </Pair>
+        </StyleMap>
+        <Point>
+          <coordinates>-61.8791847220611,-16.2954238087105,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="bolivia6">
+        <name>San Rafael inselberg</name>
+        <visibility>0</visibility>
+        <snippet/>
+        <description/>
+        <StyleMap>
+          <Pair>
+            <key>normal</key>
+            <Style>
+              <IconStyle>
+                <Icon>
+                  <href>https://www.gstatic.com/earthfeed/icons/pinlet_green_ON_64.png</href>
+                </Icon>
+                <hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+              </IconStyle>
+              <LabelStyle>
+                <scale>0</scale>
+              </LabelStyle>
+            </Style>
+          </Pair>
+          <Pair>
+            <key>highlight</key>
+            <Style>
+              <IconStyle>
+                <Icon>
+                  <href>https://www.gstatic.com/earthfeed/icons/pinlet_green_ON_64.png</href>
+                </Icon>
+                <hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+              </IconStyle>
+              <LabelStyle>
+                <scale>1.1</scale>
+              </LabelStyle>
+            </Style>
+          </Pair>
+        </StyleMap>
+        <Point>
+          <coordinates>-60.68147022281,-16.7759270331594,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="bolivia7">
+        <name>Estancia San Juan inselberg</name>
+        <visibility>0</visibility>
+        <snippet/>
+        <description/>
+        <StyleMap>
+          <Pair>
+            <key>normal</key>
+            <Style>
+              <IconStyle>
+                <Icon>
+                  <href>https://www.gstatic.com/earthfeed/icons/pinlet_green_ON_64.png</href>
+                </Icon>
+                <hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+              </IconStyle>
+              <LabelStyle>
+                <scale>0</scale>
+              </LabelStyle>
+            </Style>
+          </Pair>
+          <Pair>
+            <key>highlight</key>
+            <Style>
+              <IconStyle>
+                <Icon>
+                  <href>https://www.gstatic.com/earthfeed/icons/pinlet_green_ON_64.png</href>
+                </Icon>
+                <hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+              </IconStyle>
+              <LabelStyle>
+                <scale>1.1</scale>
+              </LabelStyle>
+            </Style>
+          </Pair>
+        </StyleMap>
+        <Point>
+          <coordinates>-60.6944833332901,-16.6866194441915,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
